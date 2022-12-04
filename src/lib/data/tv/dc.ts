@@ -6,7 +6,7 @@ const works: Work[] = [
     date: '2019-02-15',
     slug: 'doom-patrol-2019',
     like: '1',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5c5c5fb608efb.jpg' }],
+    images: [{ url: '/tvdb/5c5c5fb608efb.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/doom-patrol' },
       { url: 'https://www.lionsgateplus.com/gb/en/series/doom-patrol/season-1/58087', type: 'stream' },
@@ -22,7 +22,7 @@ const works: Work[] = [
     date: '2019-11-29',
     slug: 'harley-quinn-2019',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/365677/posters/62cbe04aeabbe.jpg' }],
+    images: [{ url: '/tvdb/62cbe04aeabbe.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/harley-quinn' },
       { url: 'https://www.channel4.com/programmes/harley-quinn/on-demand/73283-001', type: 'stream' },
@@ -37,7 +37,7 @@ const works: Work[] = [
     date: '2022-01-13',
     slug: 'peacemaker-2022',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/391153/posters/61acbe62c2df6.jpg' }],
+    images: [{ url: '/tvdb/61acbe62c2df6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/peacemaker' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=8395910', type: 'stream' },
@@ -52,7 +52,7 @@ const works: Work[] = [
     date: '2022-08-05',
     slug: 'the-sandman-2022',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/366211/posters/62dcef3e970d6.jpg' }],
+    images: [{ url: '/tvdb/62dcef3e970d6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-sandman' },
       { url: 'https://www.netflix.com/gb/title/81150303', type: 'stream' },
@@ -67,7 +67,7 @@ const works: Work[] = [
     date: '2018-10-12',
     slug: 'titans-2018',
     like: '1',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/341663/posters/63504b3f71c7e.jpg' }],
+    images: [{ url: '/tvdb/63504b3f71c7e.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/titans' },
       { url: 'https://www.netflix.com/gb/title/80218200', type: 'stream' },
@@ -82,7 +82,7 @@ const works: Work[] = [
     date: '2019-10-20',
     slug: 'watchmen-2019',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5d85d693a958a.jpg' }],
+    images: [{ url: '/tvdb/5d85d693a958a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/watchmen' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=6554714', type: 'stream' },

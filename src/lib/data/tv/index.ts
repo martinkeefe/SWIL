@@ -5,7 +5,7 @@ const works: Work[] = [
     title: '1899',
     date: '2022-11-17',
     slug: '1899-2022',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/384429/posters/632080a001296.jpg' }],
+    images: [{ url: '/tvdb/632080a001296.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/1899' },
       { url: 'https://www.netflix.com/gb/title/80214497', type: 'stream' },
@@ -20,7 +20,7 @@ const works: Work[] = [
     date: '2018-02-02',
     slug: 'altered-carbon-2018',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/332331-12.jpg' }],
+    images: [{ url: '/tvdb/332331-12.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/altered-carbon' },
       { url: 'https://www.netflix.com/gb/title/80097140', type: 'stream' },
@@ -49,7 +49,7 @@ const works: Work[] = [
     date: '2021-11-06',
     slug: 'arcane-2021',
     like: '1',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/371028/posters/617f6a8c59e8f.jpg' }],
+    images: [{ url: '/tvdb/617f6a8c59e8f.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/arcane' },
       { url: 'https://www.netflix.com/gb/title/81435684', type: 'stream' },
@@ -64,7 +64,7 @@ const works: Work[] = [
     date: '2011-09-21',
     slug: 'the-bridge-2011',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/252019-3.jpg' }],
+    images: [{ url: '/tvdb/252019-3.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-bridge' },
       // { url: 'https://www.amazon.co.uk/gp/video/detail/0KIU93B2ZA01RZ47VCBW9HQ3QC', type: 'buy' },
@@ -78,7 +78,7 @@ const works: Work[] = [
     title: 'Chernobyl',
     date: '2019-05-06',
     slug: 'chernobyl-2019',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/360893/posters/621a6f2ded253.jpg' }],
+    images: [{ url: '/tvdb/621a6f2ded253.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/chernobyl' },
       { url: 'https://www.nowtv.com/watch/chernobyl/iYEQZ2rcf32XNZDFHaYhzo', type: 'stream' },
@@ -93,7 +93,7 @@ const works: Work[] = [
     date: '2018-10-26',
     slug: 'chilling-adventures-of-sabrina-2018',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/338947/posters/60060ddfc086f.jpg' }],
+    images: [{ url: '/tvdb/60060ddfc086f.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/chilling-adventures-of-sabrina' },
       { url: 'https://www.netflix.com/gb/title/80223989', type: 'stream' },
@@ -120,7 +120,7 @@ const works: Work[] = [
     date: '2017-12-10',
     slug: 'counterpart-2017',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/337302-4.jpg' }],
+    images: [{ url: '/tvdb/337302-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/counterpart' },
       // { url: '' },
@@ -146,7 +146,7 @@ const works: Work[] = [
     title: 'Dark',
     date: '2017-12-01',
     slug: 'dark-2017',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/334824-1.jpg' }],
+    images: [{ url: '/tvdb/334824-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/dark' },
       { url: 'https://www.netflix.com/gb/title/80100172', type: 'stream' },
@@ -173,7 +173,7 @@ const works: Work[] = [
     date: '2020-03-05',
     slug: 'devs-2020',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/364149/posters/62101453.jpg' }],
+    images: [{ url: '/tvdb/62101453.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/devs' },
       { url: 'https://www.disneyplus.com/en-gb/series/devs/6yHO6txGKqMC', type: 'stream' },
@@ -200,7 +200,7 @@ const works: Work[] = [
     date: '2016-10-22',
     slug: 'dirk-gentlys-holistic-detective-agency-2016',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/312505-8.jpg' }],
+    images: [{ url: '/tvdb/312505-8.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/dirk-gentlys-holistic-detective-agency' },
       { url: 'https://www.netflix.com/gb/title/80119426', type: 'stream' },
@@ -231,7 +231,7 @@ const works: Work[] = [
     date: '2017-10-24',
     slug: 'the-end-of-the-f-ing-world-2017',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/336522-1.jpg' }],
+    images: [{ url: '/tvdb/336522-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-end-of-the-ing-world' },
       { url: 'https://www.netflix.com/gb/title/80175722', type: 'stream' },
@@ -259,7 +259,7 @@ const works: Work[] = [
     date: '2019-06-16',
     slug: 'euphoria-2019',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/360261/posters/61ca158605238.jpg' }],
+    images: [{ url: '/tvdb/61ca158605238.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/euphoria' },
       // { url: 'https://www.amazon.co.uk/gp/video/detail/0MF5ATLQPFXCT888M6V35F3ZWJ', type: 'buy' },
@@ -289,7 +289,7 @@ const works: Work[] = [
     date: '2015-12-14',
     slug: 'the-expanse-2015',
     like: '4',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/280619-4.jpg' }],
+    images: [{ url: '/tvdb/280619-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-expanse' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0FJWCUYGRNRKQWK1B1E18NPPCJ', type: 'stream' },
@@ -316,7 +316,7 @@ const works: Work[] = [
     date: '2021-09-24',
     slug: 'foundation-2021',
     like: '1',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/366972/posters/60da318bace4a.jpg' }],
+    images: [{ url: '/tvdb/60da318bace4a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/foundation' },
       { url: 'https://tv.apple.com/gb/episode/preparing-to-live/umc.cmc.12ibmbmz39qv1p882hca0qdah', type: 'stream' },
@@ -339,7 +339,7 @@ const works: Work[] = [
     date: '2019-04-22',
     slug: 'gentleman-jack-2019',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5cbf25e80c9bd.jpg' }],
+    images: [{ url: '/tvdb/5cbf25e80c9bd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/gentleman-jack' },
       { url: 'https://www.bbc.co.uk/iplayer/episode/m00059m7/gentleman-jack', type: 'stream' },
@@ -369,7 +369,7 @@ const works: Work[] = [
     date: '2019-05-31',
     slug: 'good-omens-2019',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5c65fa5e7fa62.jpg' }],
+    images: [{ url: '/tvdb/5c65fa5e7fa62.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/good-omens' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0HX5QEE7UHHGOXQA4U9SF3JJ5H', type: 'stream' },
@@ -384,7 +384,7 @@ const works: Work[] = [
     date: '2016-09-19',
     slug: 'the-good-place-2016',
     like: '4',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/311711-1.jpg' }],
+    images: [{ url: '/tvdb/311711-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-good-place' },
       { url: 'https://www.netflix.com/gb/title/80113701', type: 'stream' },
@@ -398,7 +398,7 @@ const works: Work[] = [
     title: 'Gravity Falls',
     date: '2012-06-15',
     slug: 'gravity-falls-2012',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/259972-1.jpg' }],
+    images: [{ url: '/tvdb/259972-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/gravity-falls' },
       { url: 'https://tv.apple.com/gb/show/gravity-falls/umc.cmc.5v88dhyt9l9tinygyheo3vbco', type: 'stream' },
@@ -413,7 +413,7 @@ const works: Work[] = [
     date: '2019-11-03',
     slug: 'his-dark-materials-2019',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/360295/posters/634169b6d58fd.jpg' }],
+    images: [{ url: '/tvdb/634169b6d58fd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/his-dark-materials' },
       { url: 'https://www.bbc.co.uk/iplayer/episode/m000b1v0/his-dark-materials', type: 'stream' },
@@ -428,7 +428,7 @@ const works: Work[] = [
     date: '2021-10-22',
     slug: 'inside-job-2021',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/365098/posters/6178af6835bb5.jpg' }],
+    images: [{ url: '/tvdb/6178af6835bb5.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/inside-job' },
       { url: 'https://www.netflix.com/gb/title/80995819', type: 'stream' },
@@ -443,7 +443,7 @@ const works: Work[] = [
     date: '2022-03-06',
     slug: 'the-ipcress-file-2022',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/393519/posters/628ffd509ebdd.jpg' }],
+    images: [{ url: '/tvdb/628ffd509ebdd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-ipcress-file' },
       { url: 'https://www.britbox.co.uk/series/S1_61911', type: 'stream' },
@@ -458,7 +458,7 @@ const works: Work[] = [
     date: '2018-04-08',
     slug: 'killing-eve-2018',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/340959-1.jpg' }],
+    images: [{ url: '/tvdb/340959-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/killing-eve' },
       { url: 'https://www.bbc.co.uk/iplayer/episodes/p06jy6bc/killing-eve', type: 'stream' },
@@ -474,7 +474,7 @@ const works: Work[] = [
     date: '2018-10-28',
     slug: 'the-little-drummer-girl-2018',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5bbed1c746b2c.jpg' }],
+    images: [{ url: '/tvdb/5bbed1c746b2c.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-little-drummer-girl' },
       { url: 'https://www.lionsgateplus.com/gb/en/series/the-little-drummer-girl/season-1/52488', type: 'stream' },
@@ -490,7 +490,7 @@ const works: Work[] = [
     date: '2019-03-15',
     slug: 'love-death-and-robots-2019',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/357888/posters/607da9fc6a6a1.jpg' }],
+    images: [{ url: '/tvdb/607da9fc6a6a1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/love-death-and-robots' },
       { url: 'https://www.netflix.com/gb/title/80174608', type: 'stream' },
@@ -505,7 +505,7 @@ const works: Work[] = [
     date: '2017-10-13',
     slug: 'mindhunter-2017',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/328708-11.jpg' }],
+    images: [{ url: '/tvdb/328708-11.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/mindhunter' },
       { url: 'https://www.netflix.com/gb/title/80114855', type: 'stream' },
@@ -520,7 +520,7 @@ const works: Work[] = [
     date: '2022-03-17',
     slug: 'minx-2022',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/400542/posters/6233995b2f928.jpg' }],
+    images: [{ url: '/tvdb/6233995b2f928.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/minx' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0LQR85QXMH9D4SW1PRLTAE4QZP', which: 'Paramount+', type: 'stream' }, // Paramount+
@@ -541,7 +541,7 @@ const works: Work[] = [
     title: 'Mr. Robot',
     date: '2015-06-24',
     slug: 'mr-robot-2015',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/289590-12.jpg' }],
+    images: [{ url: '/tvdb/289590-12.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/mr-robot' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0MW3B0D3QOSP91XT2TWREELH3Z', type: 'stream' },
@@ -556,7 +556,7 @@ const works: Work[] = [
     date: '2018-11-27',
     slug: 'mrs-wilson-2018',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5caf10c94e41d.jpg' }],
+    images: [{ url: '/tvdb/5caf10c94e41d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/mrs-wilson' },
       { url: 'https://www.netflix.com/gb/title/81464582', type: 'stream' },
@@ -571,7 +571,7 @@ const works: Work[] = [
     date: '2016-02-21',
     slug: 'the-night-manager-2016',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/290508-6.jpg' }],
+    images: [{ url: '/tvdb/290508-6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-night-manager' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0KRD5OJZJQQNBCQBA2AM14OXHV', type: 'stream' },
@@ -586,7 +586,7 @@ const works: Work[] = [
     date: '2016-12-16',
     slug: 'the-oa-2016',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/321060-2.jpg' }],
+    images: [{ url: '/tvdb/321060-2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-oa' },
       { url: 'https://www.netflix.com/gb/title/80044950', type: 'stream' },
@@ -601,7 +601,7 @@ const works: Work[] = [
     date: '2021-08-31',
     slug: 'only-murders-in-the-building-2021',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/399959/posters/60d5e4a9214e7.jpg' }],
+    images: [{ url: '/tvdb/60d5e4a9214e7.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/only-murders-in-the-building' },
       { url: 'https://www.disneyplus.com/en-gb/series/only-murders-in-the-building/2EfP45PYWY5s', type: 'stream' },
@@ -627,7 +627,7 @@ const works: Work[] = [
     date: '2022-03-03',
     slug: 'our-flag-means-death-2022',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/390093/posters/621c5845419fd.jpg' }],
+    images: [{ url: '/tvdb/621c5845419fd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/our-flag-means-death' },
       // { url: '' },
@@ -642,7 +642,7 @@ const works: Work[] = [
     date: '2022-04-15',
     slug: 'outer-range-2022',
     like: '1',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/391101/posters/624ef4d1a40ad.jpg' }],
+    images: [{ url: '/tvdb/624ef4d1a40ad.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/outer-range' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0TZ50QF46R338DET8MRNI19EDT', type: 'stream' },
@@ -657,7 +657,7 @@ const works: Work[] = [
     date: '2022-10-21',
     slug: 'the-peripheral-2022',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/349187/posters/634616dca72ee.jpg' }],
+    images: [{ url: '/tvdb/634616dca72ee.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-peripheral' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0LEXRDC9N1PVDIE0NXVH4118IB', type: 'stream' },
@@ -671,7 +671,7 @@ const works: Work[] = [
     title: "The Queen's Gambit",
     date: '2020-10-23',
     slug: 'the-queens-gambit-2020',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/387115/posters/5f6dbc7a694a9.jpg' }],
+    images: [{ url: '/tvdb/5f6dbc7a694a9.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-queens-gambit' },
       { url: 'https://www.netflix.com/gb/title/80234304', type: 'stream' },
@@ -686,7 +686,7 @@ const works: Work[] = [
     date: '2013-12-02',
     slug: 'rick-and-morty-2013',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/275274-4.jpg' }],
+    images: [{ url: '/tvdb/275274-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/rick-and-morty' },
       { url: 'https://www.netflix.com/gb/title/80014749', type: 'stream' },
@@ -701,7 +701,7 @@ const works: Work[] = [
     date: '2020-10-18',
     slug: 'roadkill-2020',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/378989/posters/5f86df37a9a6c.jpg' }],
+    images: [{ url: '/tvdb/5f86df37a9a6c.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/roadkill-2020' },
       { url: 'https://www.netflix.com/gb/title/81464587', type: 'stream' },
@@ -718,7 +718,7 @@ const works: Work[] = [
     date: '2019-02-01',
     slug: 'russian-doll-2019',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5c36e4d48092b.jpg' }],
+    images: [{ url: '/tvdb/5c36e4d48092b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/russian-doll' },
       { url: 'https://www.netflix.com/gb/title/80211627', type: 'stream' },
@@ -733,7 +733,7 @@ const works: Work[] = [
     date: '2022-02-18',
     slug: 'severance-2022',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/371980/posters/621096b26f0e2.jpg' }],
+    images: [{ url: '/tvdb/621096b26f0e2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/severance' },
       { url: 'https://tv.apple.com/gb/episode/half-loop/umc.cmc.23qox5n6larygqgg6u74fvyj', type: 'stream' },
@@ -747,7 +747,7 @@ const works: Work[] = [
     title: 'Solar Opposites',
     date: '2020-05-08',
     slug: 'solar-opposites-2020',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/375892/posters/603b6a37d9223.jpg' }],
+    images: [{ url: '/tvdb/603b6a37d9223.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/solar-opposites' },
       { url: 'https://www.disneyplus.com/en-gb/series/solar-opposites/3ZEf8rZecJf8', type: 'stream' },
@@ -762,7 +762,7 @@ const works: Work[] = [
     date: '2011-10-14',
     slug: 'steins-gate-2011',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/244061/posters/5f44d6fbaad70.jpg' }],
+    images: [{ url: '/tvdb/5f44d6fbaad70.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/steins-gate' },
       { url: 'https://www.funimation.com/shows/steinsgate/', type: 'stream' },
@@ -776,7 +776,7 @@ const works: Work[] = [
     title: 'Stranger Things',
     date: '2016-07-15',
     slug: 'stranger-things-2016',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/305288-4.jpg' }],
+    images: [{ url: '/tvdb/305288-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/stranger-things' },
       { url: 'https://www.netflix.com/gb/title/80057281', type: 'stream' },
@@ -791,7 +791,7 @@ const works: Work[] = [
     date: '2017-08-27',
     slug: 'strike-2017',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/319742-4.jpg' }],
+    images: [{ url: '/tvdb/319742-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/c-b-strike' },
       { url: 'https://www.bbc.co.uk/iplayer/episodes/b093ypxy/strike', type: 'stream' },
@@ -806,7 +806,7 @@ const works: Work[] = [
     date: '2016-10-17',
     slug: 'travelers-2016',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/314544-6.jpg' }],
+    images: [{ url: '/tvdb/314544-6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/travelers' },
       { url: 'https://www.netflix.com/gb/title/80105699', type: 'stream' },
@@ -821,7 +821,7 @@ const works: Work[] = [
     date: '2021-01-03',
     slug: 'the-watch-2021',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/series/369568/posters/5ffdd12fb130e.jpg' }],
+    images: [{ url: '/tvdb/5ffdd12fb130e.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-watch' },
       // { url: 'https://www.amazon.co.uk/gp/video/detail/0T78MIO1TP3XKE6CS3B74NCH89', type: 'buy' },
@@ -836,7 +836,7 @@ const works: Work[] = [
     date: '2022-11-23',
     slug: 'wednesday-2022',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/397060/posters/632dbd876738d.jpg' }],
+    images: [{ url: '/tvdb/632dbd876738d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/wednesday' },
       { url: 'https://www.netflix.com/gb/title/81231974', type: 'stream' },
@@ -851,7 +851,7 @@ const works: Work[] = [
     date: '2016-10-02',
     slug: 'westworld-2016',
     like: '3',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/296762-3.jpg' }],
+    images: [{ url: '/tvdb/296762-3.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/westworld' },
       // { url: 'https://tv.apple.com/gb/show/westworld/umc.cmc.305ub24u3ci7x1lu4xyoynbar', type: 'buy' },
@@ -866,7 +866,7 @@ const works: Work[] = [
     date: '2019-03-27',
     slug: 'what-we-do-in-the-shadows-2019',
     like: '2',
-    images: [{ url: 'https://artworks.thetvdb.com/banners/posters/5c6810de877c4.jpg' }],
+    images: [{ url: '/tvdb/5c6810de877c4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/what-we-do-in-the-shadows' },
       { url: 'https://www.disneyplus.com/en-gb/series/what-we-do-in-the-shadows/40SsBvhCRbp1', type: 'stream' },
