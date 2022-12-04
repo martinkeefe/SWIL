@@ -6,6 +6,8 @@
   import '@fontsource/alegreya/400-italic.css';
   import '@fontsource/alegreya/600-italic.css';
   import '@fontsource/alegreya/900-italic.css';
+
+  import '@fontsource/lato/400.css';
 </script>
 
 <svelte:head>
@@ -32,10 +34,12 @@
   b {
     font-weight: 600;
   }
-  h1 {
-    font-weight: 900;
-  }
+  h1,
   h2 {
-    font-weight: 600;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+  }
+  h1 {
+    border-bottom: 1px solid;
   }
 </style>

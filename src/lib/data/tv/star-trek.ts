@@ -82,7 +82,7 @@ const works: Work[] = [
     images: [{ url: 'https://artworks.thetvdb.com/banners/v4/series/382389/posters/623dea0e4c94a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-strange-new-worlds' },
-      { url: 'https://www.amazon.co.uk/gp/video/detail/0GQ77405RH1XF9XCT2XV8XNMHD', type: 'stream' },
+      { url: 'https://www.amazon.co.uk/gp/video/detail/0GQ77405RH1XF9XCT2XV8XNMHD', which: 'Paramount+', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt12327578', score: '8.2 30K' },
       { url: 'https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds' },
       { url: 'https://www.rottentomatoes.com/tv/star_trek_strange_new_worlds', score: '99% 80%' },

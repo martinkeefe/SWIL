@@ -13,10 +13,12 @@ function host(url: string) {
   return new URL(url).host;
 }
 
+const init: Record<string, string> = { sort: 'date', dir: 'down', show: 'all' };
+
 export const load: PageLoad = ({ url }) => {
-  const sort = url.searchParams.get('sort') ?? 'title';
-  const dir = url.searchParams.get('dir') ?? 'up';
-  const show = url.searchParams.get('show') ?? 'all';
+  const sort = url.searchParams.get('sort') ?? init.sort;
+  const dir = url.searchParams.get('dir') ?? init.dir;
+  const show = url.searchParams.get('show') ?? init.show;
   const nets = url.searchParams.get('nets');
   const exs = url.searchParams.get('exs');
   const ins = url.searchParams.get('ins');
@@ -79,7 +81,7 @@ export const load: PageLoad = ({ url }) => {
 
   if (dir == 'down') works.reverse();
 
-  return { works, sort, dir, show, nets, exs, ins };
+  return { init, works, sort, dir, show, nets, exs, ins };
 };
 
 const ARTS = new Set('the a'.split(' '));

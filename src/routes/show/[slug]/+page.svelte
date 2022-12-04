@@ -1,18 +1,13 @@
 <script lang="ts">
   import type { PageData } from './$types';
+  import type { Link } from '$lib/data/types';
 
   export let data: PageData;
-
-  type Link = {
-    url: string;
-    type?: 'stream' | 'buy' | undefined;
-    score?: string | undefined;
-  };
 
   let streams: Link[] = [];
   let buys: Link[] = [];
   let jw: Link | undefined;
-  let imdb: Link | undefined;
+  let imdb: { url: string; score?: string[] } | undefined;
   let wp: Link | undefined;
   let rt: Link | undefined;
   let tvdb: Link | undefined;
@@ -23,7 +18,7 @@
         jw = { ...link };
         break;
       case 'www.imdb.com':
-        imdb = { ...link };
+        imdb = { ...link, score: link.score?.split(' ') };
         break;
       case 'en.wikipedia.org':
         wp = { ...link };
@@ -47,7 +42,13 @@
 <div class="wrapper">
   <img src={data.images[0].url} alt={data.title} />
   <div class="info">
-    <span class="title"><a href={data.links[0].url}>{data.title}</a></span>
+    <span class="title">
+      {#if jw}
+        <a href={jw.url}>{data.title}</a>
+      {:else}
+        {data.title}
+      {/if}
+    </span>
     <span class="year">({data.date.substring(0, 4)})</span>
     <span class="like">{'★★★★'.substring(0, Number(data.like ?? '0'))}</span>
 
@@ -55,7 +56,11 @@
       <div>
         Stream at:<br />
         {#each streams as s (s.url)}
-          <a href={s.url}>{new URL(s.url).host}</a><br />
+          <a href={s.url}>{new URL(s.url).host}</a>
+          {#if s.which}
+            ({s.which})
+          {/if}
+          <br />
         {/each}
       </div>
       <br />
@@ -78,7 +83,7 @@
       <div>
         <a href={imdb.url}>IMDB</a>
         {#if imdb.score}
-          ({imdb.score})
+          {imdb.score[0]} ({imdb.score[1]})
         {/if}
       </div>
     {/if}
@@ -87,7 +92,7 @@
       <div>
         <a href={rt.url}>Rotten Tomatoes</a>
         {#if rt.score}
-          ({rt.score.split(' ').join(' / ')})
+          {rt.score.split(' ').join(' / ')}
         {/if}
       </div>
     {/if}
@@ -129,6 +134,8 @@
   .title {
     font-weight: 600;
     font-style: italic;
+    /* font-family: Lato, sans-serif;
+    font-weight: 400; */
     font-size: xx-large;
   }
   .year {
