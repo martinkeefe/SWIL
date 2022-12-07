@@ -5,7 +5,7 @@ const works: Work[] = [
     title: 'Doom Patrol',
     date: '2019-02-15',
     slug: 'doom-patrol-2019',
-    like: '1',
+    like: '2',
     images: [{ url: '/tvdb/5c5c5fb608efb.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/doom-patrol' },
@@ -21,7 +21,7 @@ const works: Work[] = [
     title: 'Harley Quinn',
     date: '2019-11-29',
     slug: 'harley-quinn-2019',
-    like: '3',
+    like: '4',
     images: [{ url: '/tvdb/62cbe04aeabbe.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/harley-quinn' },
@@ -36,7 +36,7 @@ const works: Work[] = [
     title: 'Peacemaker',
     date: '2022-01-13',
     slug: 'peacemaker-2022',
-    like: '3',
+    like: '4',
     images: [{ url: '/tvdb/61acbe62c2df6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/peacemaker' },
@@ -51,7 +51,7 @@ const works: Work[] = [
     title: 'The Sandman',
     date: '2022-08-05',
     slug: 'the-sandman-2022',
-    like: '3',
+    like: '4',
     images: [{ url: '/tvdb/62dcef3e970d6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-sandman' },
@@ -66,7 +66,7 @@ const works: Work[] = [
     title: 'Titans',
     date: '2018-10-12',
     slug: 'titans-2018',
-    like: '1',
+    like: '3',
     images: [{ url: '/tvdb/63504b3f71c7e.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/titans' },
@@ -81,7 +81,7 @@ const works: Work[] = [
     title: 'Watchmen',
     date: '2019-10-20',
     slug: 'watchmen-2019',
-    like: '3',
+    like: '4',
     images: [{ url: '/tvdb/5d85d693a958a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/watchmen' },

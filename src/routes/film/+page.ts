@@ -2,11 +2,11 @@ import sortBy from 'lodash/sortBy';
 import type { PageLoad } from './$types';
 import type { Work, Network } from '$lib/data/types';
 
-import tv from '$lib/data/tv';
-import tv_dc from '$lib/data/tv/dc';
-import tv_marvel from '$lib/data/tv/marvel';
-import tv_star_trek from '$lib/data/tv/star-trek';
-import tv_star_wars from '$lib/data/tv/star-wars';
+import tv from '$lib/data/film';
+// import tv_dc from '$lib/data/tv/dc';
+// import tv_marvel from '$lib/data/tv/marvel';
+// import tv_star_trek from '$lib/data/tv/star-trek';
+// import tv_star_wars from '$lib/data/tv/star-wars';
 import networks from '$lib/data/networks';
 
 function host(url: string) {
@@ -31,19 +31,19 @@ export const load: PageLoad = ({ url }) => {
 
   let works = ins == null ? tv : [];
 
-  const only = new Set(ins?.split('|'));
-  const mute = new Set(exs?.split('|'));
+  //   const only = new Set(ins?.split('|'));
+  //   const mute = new Set(exs?.split('|'));
 
-  const include = (tag: string) => {
-    if (ins != null) return only.has(tag);
-    if (exs != null) return !mute.has(tag);
-    return true;
-  };
+  //   const include = (tag: string) => {
+  //     if (ins != null) return only.has(tag);
+  //     if (exs != null) return !mute.has(tag);
+  //     return true;
+  //   };
 
-  if (include('dc')) works = [...works, ...tv_dc];
-  if (include('marvel')) works = [...works, ...tv_marvel];
-  if (include('star-trek')) works = [...works, ...tv_star_trek];
-  if (include('star-wars')) works = [...works, ...tv_star_wars];
+  //   if (include('dc')) works = [...works, ...tv_dc];
+  //   if (include('marvel')) works = [...works, ...tv_marvel];
+  //   if (include('star-trek')) works = [...works, ...tv_star_trek];
+  //   if (include('star-wars')) works = [...works, ...tv_star_wars];
 
   if (nets != null) {
     const slugs = new Set(nets.split('|'));

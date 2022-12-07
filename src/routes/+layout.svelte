@@ -39,7 +39,7 @@
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
-  h1 {
+  /* h1 {
     border-bottom: 1px solid;
-  }
+  } */
 </style>

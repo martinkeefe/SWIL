@@ -33,7 +33,7 @@ const works: Work[] = [
     title: 'Star Trek: Picard',
     date: '2020-01-23',
     slug: 'star-trek-picard-2020',
-    like: '1',
+    like: '2',
     images: [{ url: '/tvdb/5d262b402df21.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-picard' },
@@ -48,7 +48,7 @@ const works: Work[] = [
     title: 'Star Trek: Lower Decks',
     date: '2020-08-06',
     slug: 'star-trek-lower-decks-2020',
-    like: '2',
+    like: '3',
     images: [{ url: '/tvdb/62f77218a6598.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-lower-decks' },
@@ -78,7 +78,7 @@ const works: Work[] = [
     title: 'Star Trek: Strange New Worlds',
     date: '2022-05-05',
     slug: 'star-trek-strange-new-worlds-2022',
-    like: '2',
+    like: '4',
     images: [{ url: '/tvdb/623dea0e4c94a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-strange-new-worlds' },

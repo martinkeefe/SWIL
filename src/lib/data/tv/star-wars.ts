@@ -5,7 +5,7 @@ const works: Work[] = [
     title: 'Star Wars: The Clone Wars',
     date: '2008-10-03',
     slug: 'star-wars-the-clone-wars-2008',
-    like: '2',
+    like: '4',
     images: [{ url: '/tvdb/5e7a3a74059fe.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-the-clone-wars' },
@@ -20,7 +20,7 @@ const works: Work[] = [
     title: 'Star Wars Rebels',
     date: '2014-10-03',
     slug: 'star-wars-rebels-2014',
-    like: '2',
+    like: '3',
     images: [{ url: '/tvdb/601814c2e650f.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-rebels' },
@@ -50,7 +50,7 @@ const works: Work[] = [
     title: 'The Mandalorian',
     date: '2019-11-12',
     slug: 'the-mandalorian-2019',
-    like: '2',
+    like: '3',
     images: [{ url: '/tvdb/5f60f94e53d3b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-mandalorian' },
@@ -80,7 +80,7 @@ const works: Work[] = [
     title: 'Star Wars: Visions',
     date: '2021-09-22',
     slug: 'star-wars-visions-2021',
-    like: '1',
+    like: '2',
     images: [{ url: '/tvdb/6139de458f13b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-visions' },
@@ -110,7 +110,7 @@ const works: Work[] = [
     title: 'Obi-Wan Kenobi',
     date: '2022-05-27',
     slug: 'obi-wan-kenobi-2022',
-    like: '2',
+    like: '3',
     images: [{ url: '/tvdb/6204374e6bb0a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/obi-wan-kenobi' },
@@ -125,7 +125,7 @@ const works: Work[] = [
     title: 'Andor',
     date: '2022-09-21',
     slug: 'andor-2022',
-    like: '3',
+    like: '4',
     images: [{ url: '/tvdb/632f4c7a0c9da.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/andor' },

@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import networks from '$lib/data/networks';
+  import { filter, includes } from 'lodash';
 
   export let data: PageData;
 
@@ -71,21 +72,21 @@
     if (nets != null) hrefs.push('nets=' + nets);
     if (exs != null) hrefs.push('exs=' + exs);
     if (ins != null) hrefs.push('ins=' + ins);
-    return '/show/' + (hrefs.length > 0 ? '?' + hrefs.join('&') : '');
+    return '/film/' + (hrefs.length > 0 ? '?' + hrefs.join('&') : '');
   }
 </script>
 
 <svelte:head>
-  <title>SWIL - TV</title>
+  <title>SWIL - Film</title>
 </svelte:head>
 
 <header>
-  <h1>TV Shows</h1>
+  <h1>Films</h1>
 
   <div class="options">
     <div class="btn-grp">
       Streams at:
-      {#each networks.filter((x) => x.types.includes('tv')) as net (net.slug)}
+      {#each networks.filter((x) => x.types.includes('film')) as net (net.slug)}
         <a {...net_chk(net.slug)}>{net.name}</a>{' '}
       {/each}
       <a {...all_nets_btn()}>All</a>
@@ -108,7 +109,7 @@
       <a {...radio_btn('show', 'todo')}>Yet To Watch</a>
       <a {...radio_btn('show', 'all')}>All</a>
     </div>
-    <div class="btn-grp">
+    <!-- <div class="btn-grp">
       Exclude:
       <a {...exc_tag_chk('dc')}>DC</a>
       <a {...exc_tag_chk('marvel')}>Marvel</a>
@@ -123,14 +124,14 @@
       <a {...inc_tag_chk('star-trek')}>Star Trek</a>
       <a {...inc_tag_chk('star-wars')}>Star Wars</a>
       <a {...only_none_btn()}>None</a>
-    </div>
+    </div> -->
   </div>
 </header>
 
 <main>
   {#each data.works as show (show.slug)}
     <div>
-      <a href="/show/{show.slug}">
+      <a href="/film/{show.slug}">
         <img src={show.images[0].url} alt={show.title} />
         <i><b>{show.title}</b></i>
       </a>

@@ -10,6 +10,7 @@
   let imdb: { url: string; score?: string[] } | undefined;
   let wp: Link | undefined;
   let rt: Link | undefined;
+  let tmdb: Link | undefined;
   let tvdb: Link | undefined;
 
   for (const link of data.links) {
@@ -25,6 +26,9 @@
         break;
       case 'www.rottentomatoes.com':
         rt = { ...link };
+        break;
+      case 'www.themoviedb.org':
+        tmdb = { ...link };
         break;
       case 'thetvdb.com':
         tvdb = { ...link };
@@ -104,6 +108,15 @@
     {#if wp}
       <div>
         <a href={wp.url}>Wikipedia</a>
+      </div>
+    {/if}
+
+    {#if tmdb}
+      <div>
+        <a href={tmdb.url}>TMDB</a>
+        {#if tmdb.score}
+          {tmdb.score}
+        {/if}
       </div>
     {/if}
 

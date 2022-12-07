@@ -24,6 +24,7 @@ export type Text = {
 export type Network = {
   name: string;
   slug: string;
+  types: ('tv' | 'film')[];
   links: Link[];
 };
 
