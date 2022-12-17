@@ -82,6 +82,7 @@
 <header>
   <h1>TV Shows</h1>
 
+  <!-- svelte-ignore a11y-missing-attribute -->
   <div class="options">
     <div class="btn-grp">
       Streams at:

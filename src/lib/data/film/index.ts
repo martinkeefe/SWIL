@@ -6,7 +6,7 @@ const works: Work[] = [
     date: '2022-01-07',
     slug: 'the-355-2022',
     like: '3',
-    images: [{ url: '/tvdb/5f7c99c5cb740.jpg' }],
+    images: [{ url: '/img/tvdb/5f7c99c5cb740.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-355' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydB7C6eUXjy', type: 'stream' },
@@ -31,7 +31,7 @@ const works: Work[] = [
     date: '2005-12-02',
     slug: 'aeon-flux-2005',
     like: '3',
-    images: [{ url: '/tvdb/815.jpg' }],
+    images: [{ url: '/img/tvdb/815.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/aeon-flux' },
       { url: 'https://www.netflix.com/gb/title/70045919', type: 'stream' },
@@ -58,7 +58,7 @@ const works: Work[] = [
     date: '2022-04-08',
     slug: 'all-the-old-knives-2022',
     like: '3',
-    images: [{ url: '/tvdb/6223d3f1ed25b.jpg' }],
+    images: [{ url: '/img/tvdb/6223d3f1ed25b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/all-the-old-knives' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0LO5KEI7J0TVCXES17FQ8XV8R2/ref=atv_dl_rdr', type: 'stream' },
@@ -82,7 +82,7 @@ const works: Work[] = [
     date: '2013-12-08',
     slug: 'american-hustle-2013',
     like: '2',
-    images: [{ url: '/tvdb/1699.jpg' }],
+    images: [{ url: '/img/tvdb/1699.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/american-hustle' },
       // { url: "", type: "stream" },
@@ -105,7 +105,7 @@ const works: Work[] = [
     date: '2022-03-01',
     slug: 'the-batman-200',
     like: '4',
-    images: [{ url: '/tvdb/616c6d43be6a7.jpg' }],
+    images: [{ url: '/img/tvdb/616c6d43be6a7.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-batman' },
       { url: 'https://www.nowtv.com/watch/the-batman-2022/A5EK6sKrAaydGp2JA4Rqm', type: 'stream' },
@@ -128,7 +128,7 @@ const works: Work[] = [
     date: '2015-11-12',
     slug: 'the-big-short-2015',
     like: '4',
-    images: [{ url: '/tvdb/1238.jpg' }],
+    images: [{ url: '/img/tvdb/1238.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-big-short' },
       { url: 'https://www.netflix.com/gb/title/80075560', type: 'stream' },
@@ -152,7 +152,7 @@ const works: Work[] = [
     date: '1966-12-18',
     slug: 'blow-up-1966',
     like: '5',
-    images: [{ url: '/tvdb/4183.jpg' }],
+    images: [{ url: '/img/tvdb/4183.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/blow-up' },
       // { url: "", type: "stream" },
@@ -176,7 +176,7 @@ const works: Work[] = [
     date: '2022-07-18',
     slug: 'bullet-train-2022',
     like: '1',
-    images: [{ url: '/tvdb/62e7d920701cd.jpg' }],
+    images: [{ url: '/img/tvdb/62e7d920701cd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/bullet-train' },
       // { url: "", type: "stream" },
@@ -198,7 +198,7 @@ const works: Work[] = [
     date: '2014-01-12',
     slug: 'the-clockwork-girl-2014',
     // like: "3",
-    images: [{ url: '/tvdb/jBY5jia6kDm2IFN6H3bqqvoegF2.jpg' }],
+    images: [{ url: '/img/tvdb/jBY5jia6kDm2IFN6H3bqqvoegF2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-clockwork-girl' },
       // { url: "", type: "stream" },
@@ -222,7 +222,7 @@ const works: Work[] = [
     date: '2004-08-06',
     slug: 'collateral-2004',
     like: '5',
-    images: [{ url: '/tvdb/990.jpg' }],
+    images: [{ url: '/img/tvdb/990.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/collateral' },
       { url: 'https://www.netflix.com/gb/title/60036246', type: 'stream' },
@@ -247,7 +247,7 @@ const works: Work[] = [
     date: '2020-01-24',
     slug: 'the-courier-2020',
     like: '3',
-    images: [{ url: '/tvdb/6011d41dc8e45.jpg' }],
+    images: [{ url: '/img/tvdb/6011d41dc8e45.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-courier-2021' },
       { url: 'https://www.netflix.com/gb/title/81173715', type: 'stream' },
@@ -270,7 +270,7 @@ const works: Work[] = [
     date: '2021-05-18',
     slug: 'cruella-2021',
     like: '4',
-    images: [{ url: '/tvdb/606dd6c6a548c.jpg' }],
+    images: [{ url: '/img/tvdb/606dd6c6a548c.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/cruella' },
       { url: 'https://www.disneyplus.com/en-gb/movies/cruella/2GJTZuO8I01c', type: 'stream' },
@@ -299,7 +299,7 @@ const works: Work[] = [
     date: '1968-01-24',
     slug: 'danger-diabolik-1968',
     like: '3',
-    images: [{ url: '/tvdb/5e7a757ad25c0.jpg' }],
+    images: [{ url: '/img/tvdb/5e7a757ad25c0.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/danger-diabolik' },
       // { url: "", type: "stream" },
@@ -323,7 +323,7 @@ const works: Work[] = [
     date: '2022-09-05',
     slug: 'dont-worry-darling-2022',
     // like: '3',
-    images: [{ url: '/tvdb/637376848053d.jpg' }],
+    images: [{ url: '/img/tvdb/637376848053d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/dont-worry-darling' },
       // { url: "", type: "stream" },
@@ -350,7 +350,7 @@ const works: Work[] = [
     date: '2021-09-03',
     slug: 'dune-2021',
     like: '4',
-    images: [{ url: '/tvdb/61124850aadd2.jpg' }],
+    images: [{ url: '/img/tvdb/61124850aadd2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/dune-2020' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydtVEmevcJq', type: 'stream' },
@@ -378,7 +378,7 @@ const works: Work[] = [
     date: '2014-05-28',
     slug: 'edge-of-tomorrow-2014',
     like: '4',
-    images: [{ url: '/tvdb/868.jpg' }],
+    images: [{ url: '/img/tvdb/868.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/un-jour-sans-lendemain' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0NU6XDUIN17X04OK9AFRZPUKPQ', type: 'stream' },
@@ -404,7 +404,7 @@ const works: Work[] = [
     date: '2020-09-23',
     slug: 'enola-holmes-2020',
     like: '3',
-    images: [{ url: '/tvdb/5f3c15dd60c0a.jpg' }],
+    images: [{ url: '/img/tvdb/5f3c15dd60c0a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/enola-holmes' },
       { url: 'https://www.netflix.com/gb/title/81277950', type: 'stream' },
@@ -427,7 +427,7 @@ const works: Work[] = [
     date: '2022-11-04',
     slug: 'enola-holmes-2-2022',
     // like: "3",
-    images: [{ url: '/tvdb/632f78cc402e8.jpg' }],
+    images: [{ url: '/img/tvdb/632f78cc402e8.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/enola-holmes-2' },
       { url: 'https://www.netflix.com/gb/title/81406219', type: 'stream' },
@@ -451,7 +451,7 @@ const works: Work[] = [
     date: '2022-03-11',
     slug: 'everything-everywhere-all-at-once-2022',
     like: '4',
-    images: [{ url: '/tvdb/6231280c1f319.jpg' }],
+    images: [{ url: '/img/tvdb/6231280c1f319.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/everything-everywhere-all-at-once' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0MH9TTXBQK7GWTSM4HG4UBWDK4', type: 'stream' },
@@ -475,7 +475,7 @@ const works: Work[] = [
     date: '2021-08-10',
     slug: 'free-guy-2021',
     like: '3',
-    images: [{ url: '/tvdb/5f2ded18248ec.jpg' }],
+    images: [{ url: '/img/tvdb/5f2ded18248ec.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/free-guy' },
       { url: 'https://www.disneyplus.com/en-gb/movies/free-guy/3qBd6ESjzQOm', type: 'stream' },
@@ -498,7 +498,7 @@ const works: Work[] = [
     date: '2021-07-12',
     slug: 'the-french-dispatch-2021',
     // like: "3",
-    images: [{ url: '/tvdb/5f66703a94000.jpg' }],
+    images: [{ url: '/img/tvdb/5f66703a94000.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-french-dispatch' },
       { url: 'https://www.disneyplus.com/en-gb/movies/the-french-dispatch/5FqFa5sKK2AY', type: 'stream' },
@@ -522,7 +522,7 @@ const works: Work[] = [
     date: '2022-07-15',
     slug: 'the-gray-man-2022',
     like: '3',
-    images: [{ url: '/tvdb/628e466158864.jpg' }],
+    images: [{ url: '/img/tvdb/628e466158864.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-gray-man-2022' },
       { url: 'https://www.netflix.com/gb/title/81160697', type: 'stream' },
@@ -545,7 +545,7 @@ const works: Work[] = [
     date: '2007-02-16',
     slug: 'hot-fuzz-2007',
     like: '3',
-    images: [{ url: '/tvdb/1279.jpg' }],
+    images: [{ url: '/img/tvdb/1279.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/hot-fuzz' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUCkTp7K9C', type: 'stream' },
@@ -575,7 +575,7 @@ const works: Work[] = [
     date: '2017-05-21',
     slug: 'how-to-talk-to-girls-at-parties-2017',
     like: '3',
-    images: [{ url: '/tvdb/8377.jpg' }],
+    images: [{ url: '/img/tvdb/8377.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/how-to-talk-to-girls-at-parties' },
       // { url: "", type: "stream" },
@@ -598,7 +598,7 @@ const works: Work[] = [
     date: '2012-02-11',
     slug: 'iron-sky-2012',
     like: '4',
-    images: [{ url: '/tvdb/3429.jpg' }],
+    images: [{ url: '/img/tvdb/3429.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/iron-sky' },
       // { url: "", type: "stream" },
@@ -622,7 +622,7 @@ const works: Work[] = [
     date: '2019-01-16',
     slug: 'iron-sky-the-coming-race-2019',
     like: '3',
-    images: [{ url: '/tvdb/15317.jpg' }],
+    images: [{ url: '/img/tvdb/15317.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/iron-sky-the-coming-race' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0I9YZV9E8Q6XG47GNAEAVUAORS', type: 'stream' },
@@ -650,7 +650,7 @@ const works: Work[] = [
     date: '2019-08-31',
     slug: 'joker-2019',
     like: '3',
-    images: [{ url: '/tvdb/5f1d98fbb67d7.jpg' }],
+    images: [{ url: '/img/tvdb/5f1d98fbb67d7.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/joker-2019' },
       // { url: "", type: "stream" },
@@ -673,7 +673,7 @@ const works: Work[] = [
     date: '2019-09-07',
     slug: 'knives-out-2019',
     like: '4',
-    images: [{ url: '/tvdb/62009379.jpg' }],
+    images: [{ url: '/img/tvdb/62009379.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/knives-out' },
       // { url: "", type: "stream" },
@@ -699,7 +699,7 @@ const works: Work[] = [
     date: '2021-11-26',
     slug: 'licorice-pizza-2021',
     // like: "3",
-    images: [{ url: '/tvdb/6193deacd295d.jpg' }],
+    images: [{ url: '/img/tvdb/6193deacd295d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/licorice-pizza' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0L0FYSN9I5BV9K9KXRNB24YISQ', type: 'stream' },
@@ -722,7 +722,7 @@ const works: Work[] = [
     date: '1996-12-13',
     slug: 'mars-attacks-1996',
     like: '4',
-    images: [{ url: '/tvdb/636085aad64cd.jpg' }],
+    images: [{ url: '/img/tvdb/636085aad64cd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/mars-attacks' },
       // { url: "", type: "stream" },
@@ -749,7 +749,7 @@ const works: Work[] = [
     date: '2021-04-23',
     slug: 'the-mitchells-vs-the-machines-2021',
     like: '3',
-    images: [{ url: '/tvdb/60649cae96e93.jpg' }],
+    images: [{ url: '/img/tvdb/60649cae96e93.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-mitchells-vs-the-machines' },
       { url: 'https://www.netflix.com/gb/title/81399614', type: 'stream' },
@@ -773,7 +773,7 @@ const works: Work[] = [
     date: '1966-05-05',
     slug: 'modesty-blaise-1966',
     like: '4',
-    images: [{ url: '/tvdb/14913.jpg' }],
+    images: [{ url: '/img/tvdb/14913.jpg' }],
     links: [
       // { url: "" },
       // { url: "", type: "stream" },
@@ -800,7 +800,7 @@ const works: Work[] = [
     date: '2021-12-01',
     slug: 'nightmare-alley-2021',
     // like: "3",
-    images: [{ url: '/tvdb/614401fdefc72.jpg' }],
+    images: [{ url: '/img/tvdb/614401fdefc72.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/nightmare-alley-2021' },
       { url: 'https://www.disneyplus.com/en-gb/movies/nightmare-alley/4W2fyAIKkAwE', type: 'stream' },
@@ -824,7 +824,7 @@ const works: Work[] = [
     date: '2021-09-28',
     slug: 'no-time-to-die-2021',
     like: '4',
-    images: [{ url: '/tvdb/5edcf50f9598d.jpg' }],
+    images: [{ url: '/img/tvdb/5edcf50f9598d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/no-time-to-die-2020' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0RMEI53DMBV7F6I3CL44VRSL9Q', type: 'stream' },
@@ -850,7 +850,7 @@ const works: Work[] = [
     date: '2022-07-18',
     slug: 'nope-2022',
     like: '3',
-    images: [{ url: '/tvdb/629f8c15d85d1.jpg' }],
+    images: [{ url: '/img/tvdb/629f8c15d85d1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/nope' },
       // { url: "", type: "stream" },
@@ -873,7 +873,7 @@ const works: Work[] = [
     date: '2020-07-10',
     slug: 'the-old-guard-2020',
     like: '3',
-    images: [{ url: '/tvdb/5f0a4f30581ac.jpg' }],
+    images: [{ url: '/img/tvdb/5f0a4f30581ac.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-old-guard' },
       { url: 'https://www.netflix.com/gb/title/81038963', type: 'stream' },
@@ -896,7 +896,7 @@ const works: Work[] = [
     date: '2020-09-22',
     slug: 'on-the-rocks-2020',
     // like: "3",
-    images: [{ url: '/tvdb/5f406ede5c30a.jpg' }],
+    images: [{ url: '/img/tvdb/5f406ede5c30a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/on-the-rocks-2020' },
       { url: 'https://tv.apple.com/gb/movie/on-the-rocks', type: 'stream' },
@@ -919,7 +919,7 @@ const works: Work[] = [
     date: '2013-05-25',
     slug: 'only-lovers-left-alive-2013',
     like: '3',
-    images: [{ url: '/tvdb/1178.jpg' }],
+    images: [{ url: '/img/tvdb/1178.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/only-lovers-left-alive' },
       { url: 'https://mubi.com/films/only-lovers-left-alive', type: 'stream' },
@@ -944,7 +944,7 @@ const works: Work[] = [
     date: '2019-01-26',
     slug: 'the-report-2019',
     like: '3',
-    images: [{ url: '/tvdb/25869119.jpg' }],
+    images: [{ url: '/img/tvdb/25869119.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-report' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0S3RTSC5JCHNWANDVWQT59XL05', type: 'stream' },
@@ -969,7 +969,7 @@ const works: Work[] = [
     date: '2010-07-27',
     slug: 'scott-pilgrim-vs-the-world-2010',
     like: '4',
-    images: [{ url: '/tvdb/1263.jpg' }],
+    images: [{ url: '/img/tvdb/1263.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/scott-pilgrim-vs-the-world' },
       // { url: "", type: "stream" },
@@ -995,7 +995,7 @@ const works: Work[] = [
     date: '2004-03-29',
     slug: 'shaun-of-the-dead-2004',
     like: '3',
-    images: [{ url: '/tvdb/770.jpg' }],
+    images: [{ url: '/img/tvdb/770.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/shaun-of-the-dead' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUETN7YWdh', type: 'stream' },
@@ -1022,7 +1022,7 @@ const works: Work[] = [
     date: '2007-09-07',
     slug: 'shoot-em-up-2007',
     like: '3',
-    images: [{ url: '/tvdb/4634.jpg' }],
+    images: [{ url: '/img/tvdb/4634.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/shoot-em-up' },
       // { url: "", type: "stream" },
@@ -1045,7 +1045,7 @@ const works: Work[] = [
     date: '2020-08-26',
     slug: 'tenet-2020',
     like: '3',
-    images: [{ url: '/tvdb/5efdea9ba7821.jpg' }],
+    images: [{ url: '/img/tvdb/5efdea9ba7821.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/tenet' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0KIZA83STTHTAG7QJ2CLY4L4VX', type: 'stream' },
@@ -1069,7 +1069,7 @@ const works: Work[] = [
     date: '2022-05-20',
     slug: 'three-thousand-years-of-longing-2022',
     // like: "3",
-    images: [{ url: '/tvdb/6320207d9f3b1.jpg' }],
+    images: [{ url: '/img/tvdb/6320207d9f3b1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/three-thousand-years-of-longing' },
       // { url: "", type: "stream" },
@@ -1092,8 +1092,8 @@ const works: Work[] = [
     title: 'The Unbearable Weight of Massive Talent',
     date: '2022-03-12',
     slug: 'the-unbearable-weight-of-massive-talent-2022',
-    // like: "3",
-    images: [{ url: '/tvdb/622ab505e8914.jpg' }],
+    like: '3',
+    images: [{ url: '/img/tvdb/622ab505e8914.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-unbearable-weight-of-massive-talent' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0OM3RVB242EOJ27IQFW40LII6B', type: 'stream' },
@@ -1119,7 +1119,7 @@ const works: Work[] = [
     date: '2013-08-29',
     slug: 'under-the-skin-2013',
     like: '2',
-    images: [{ url: '/tvdb/3174.jpg' }],
+    images: [{ url: '/img/tvdb/3174.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/under-the-skin' },
       {
@@ -1151,7 +1151,7 @@ const works: Work[] = [
     date: '2016-08-03',
     slug: 'war-dogs-2016',
     like: '3',
-    images: [{ url: '/tvdb/2102.jpg' }],
+    images: [{ url: '/img/tvdb/2102.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/arms-and-the-dudes' },
       // { url: "", type: "stream" },
@@ -1174,7 +1174,7 @@ const works: Work[] = [
     date: '2013-12-17',
     slug: 'the-wolf-of-wall-street-2013',
     like: '4',
-    images: [{ url: '/tvdb/389.jpg' }],
+    images: [{ url: '/img/tvdb/389.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-wolf-of-wall-street' },
       { url: 'https://www.netflix.com/gb/title/70266676', type: 'stream' },
@@ -1198,7 +1198,7 @@ const works: Work[] = [
     date: '2013-07-10',
     slug: 'the-worlds-end-2013',
     like: '3',
-    images: [{ url: '/tvdb/1316.jpg' }],
+    images: [{ url: '/img/tvdb/1316.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-worlds-end' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUE7k2LqH7', type: 'stream' },
@@ -1222,7 +1222,7 @@ const works: Work[] = [
     date: '2016-07-03',
     slug: 'your-name-2016',
     like: '3',
-    images: [{ url: '/tvdb/25872277.jpg' }],
+    images: [{ url: '/img/tvdb/25872277.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/your-name' },
       // { url: "", type: "stream" },
@@ -1252,7 +1252,7 @@ export default works;
     date: "",
     slug: "",
     like: "3",
-    images: [{ url: '/tvdb/' }],
+    images: [{ url: '/img/tvdb/' }],
     links: [
       { url: "" }, 
       // { url: "", type: "stream" }, 

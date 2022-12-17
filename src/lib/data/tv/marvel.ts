@@ -7,7 +7,7 @@ const works: Work[] = [
     date: '2013-09-24',
     slug: 'agents-of-shield-2013',
     like: '4',
-    images: [{ url: '/tvdb/263365-3.jpg' }],
+    images: [{ url: '/img/tvdb/263365-3.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-agents-of-s-h-i-e-l-d' },
       { url: 'https://www.disneyplus.com/en-gb/series/agents-of-shield/2UT4VQrwpVgi', type: 'stream' },
@@ -46,7 +46,7 @@ const works: Work[] = [
     date: '2015-01-06',
     slug: 'agent-carter-2015',
     like: '4',
-    images: [{ url: '/tvdb/281485-5.jpg' }],
+    images: [{ url: '/img/tvdb/281485-5.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-agent-carter' },
       { url: 'https://www.disneyplus.com/en-gb/series/agent-carter/3rh3uclvsNsT', type: 'stream' },
@@ -80,7 +80,7 @@ const works: Work[] = [
     date: '2015-04-10',
     slug: 'daredevil-2015',
     like: '3',
-    images: [{ url: '/tvdb/281662-1.jpg' }],
+    images: [{ url: '/img/tvdb/281662-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-daredevil' },
       { url: 'https://www.disneyplus.com/en-gb/series/daredevil/5jKSWL7ZMg50', type: 'stream' },
@@ -102,7 +102,7 @@ const works: Work[] = [
     date: '2015-11-20',
     slug: 'jessica-jones-2015',
     like: '3',
-    images: [{ url: '/tvdb/284190-3.jpg' }],
+    images: [{ url: '/img/tvdb/284190-3.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-jessica-jones' },
       { url: 'https://www.disneyplus.com/en-gb/series/jessica-jones/4LX4rNmINp5y', type: 'stream' },
@@ -124,7 +124,7 @@ const works: Work[] = [
     date: '2016-09-30',
     slug: 'luke-cage-2016',
     like: '3',
-    images: [{ url: '/tvdb/304219-2.jpg' }],
+    images: [{ url: '/img/tvdb/304219-2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-luke-cage' },
       { url: 'https://www.disneyplus.com/en-gb/series/luke-cage/1L458elR85KN', type: 'stream' },
@@ -145,7 +145,7 @@ const works: Work[] = [
     date: '2017-03-17',
     slug: 'iron-fist-2017',
     like: '2',
-    images: [{ url: '/tvdb/62042935.jpg' }],
+    images: [{ url: '/img/tvdb/62042935.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-iron-fist' },
       { url: 'https://www.disneyplus.com/en-gb/series/iron-fist/24YlE6bSZy6E', type: 'stream' },
@@ -166,7 +166,7 @@ const works: Work[] = [
     date: '2017-08-18',
     slug: 'the-defenders-2017',
     like: '3',
-    images: [{ url: '/tvdb/326490-4.jpg' }],
+    images: [{ url: '/img/tvdb/326490-4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-the-defenders' },
       { url: 'https://www.disneyplus.com/en-gb/series/the-defenders/1vLuQyD9nTYk', type: 'stream' },
@@ -186,7 +186,7 @@ const works: Work[] = [
     date: '2017-09-29',
     slug: 'inhumans-2017',
     like: '1',
-    images: [{ url: '/tvdb/320558-1.jpg' }],
+    images: [{ url: '/img/tvdb/320558-1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-inhumans' },
       { url: 'https://www.disneyplus.com/en-gb/series/inhumans/6VZXWp9jaYsT', type: 'stream' },
@@ -206,7 +206,7 @@ const works: Work[] = [
     date: '2017-02-08',
     slug: 'legion-2017',
     like: '3',
-    images: [{ url: '/tvdb/5b26f9ddaba9e.jpg' }],
+    images: [{ url: '/img/tvdb/5b26f9ddaba9e.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/legion' },
       { url: 'https://www.disneyplus.com/en-gb/series/legion/hFEVt4yfPHZn', type: 'stream' },
@@ -235,7 +235,7 @@ const works: Work[] = [
     date: '2017-11-17',
     slug: 'the-punisher-2017',
     like: '3',
-    images: [{ url: '/tvdb/331980-3.jpg' }],
+    images: [{ url: '/img/tvdb/331980-3.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-the-punisher' },
       { url: 'https://www.disneyplus.com/en-gb/series/the-punisher/6JOZHgU6cBS3', type: 'stream' },
@@ -256,7 +256,7 @@ const works: Work[] = [
     date: '2017-11-21',
     slug: 'runaways-2017',
     like: '3',
-    images: [{ url: '/tvdb/332027-10.jpg' }],
+    images: [{ url: '/img/tvdb/332027-10.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-runaways' },
       { url: 'https://www.disneyplus.com/en-gb/series/runaways/FrnyN9YoJj46', type: 'stream' },
@@ -279,7 +279,7 @@ const works: Work[] = [
     date: '2018-06-07',
     slug: 'cloak-and-dagger-2018',
     like: '2',
-    images: [{ url: '/tvdb/61bf602033faf.jpg' }],
+    images: [{ url: '/img/tvdb/61bf602033faf.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/marvels-cloak-and-dagger' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0JCB0QYKUOWCV6Q5HFI683IJTF', type: 'stream' },
@@ -300,7 +300,7 @@ const works: Work[] = [
     title: 'Helstrom',
     date: '2020-10-16',
     slug: 'helstrom-2020',
-    images: [{ url: '/tvdb/5f6e730bb3524.jpg' }],
+    images: [{ url: '/img/tvdb/5f6e730bb3524.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/helstrom' },
       { url: 'https://www.disneyplus.com/en-gb/series/helstrom/4FuaAENOKFEU', type: 'stream' },
@@ -320,7 +320,7 @@ const works: Work[] = [
     date: '2021-01-15',
     slug: 'wandavision-2021',
     like: '4',
-    images: [{ url: '/tvdb/5f6a1111c2752.jpg' }],
+    images: [{ url: '/img/tvdb/5f6a1111c2752.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/wandavision' },
       { url: 'https://www.disneyplus.com/en-gb/series/wandavision/4SrN28ZjDLwH', type: 'stream' },
@@ -348,7 +348,7 @@ const works: Work[] = [
     date: '2021-03-19',
     slug: 'the-falcon-and-the-winter-soldier-2021',
     like: '2',
-    images: [{ url: '/tvdb/60271980c8a0a.jpg' }],
+    images: [{ url: '/img/tvdb/60271980c8a0a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-falcon-and-the-winter-soldier' },
       { url: 'https://www.disneyplus.com/en-gb/series/the-falcon-and-the-winter-soldier/4gglDBMx8icA', type: 'stream' },
@@ -369,7 +369,7 @@ const works: Work[] = [
     date: '2021-06-09',
     slug: 'loki-2021',
     like: '4',
-    images: [{ url: '/tvdb/60c0fd48eba70.jpg' }],
+    images: [{ url: '/img/tvdb/60c0fd48eba70.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/loki' },
       { url: 'https://www.disneyplus.com/series/loki/6pARMvILBGzF', type: 'stream' },
@@ -391,7 +391,7 @@ const works: Work[] = [
     date: '2021-08-11',
     slug: 'what-if-2021',
     like: '3',
-    images: [{ url: '/tvdb/61bf6fa5e11f5.jpg' }],
+    images: [{ url: '/img/tvdb/61bf6fa5e11f5.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/what-if-2021' },
       { url: 'https://www.disneyplus.com/en-gb/series/what-if/7672ZVj1ZxU9', type: 'stream' },
@@ -414,7 +414,7 @@ const works: Work[] = [
     date: '2021-11-24',
     slug: 'hawkeye-2021',
     like: '3',
-    images: [{ url: '/tvdb/6140c0de6a2d2.jpg' }],
+    images: [{ url: '/img/tvdb/6140c0de6a2d2.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/hawkeye' },
       { url: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l', type: 'stream' },
@@ -435,7 +435,7 @@ const works: Work[] = [
     date: '2022-03-30',
     slug: 'moon-knight-2022',
     like: '4',
-    images: [{ url: '/tvdb/6209c5041016d.jpg' }],
+    images: [{ url: '/img/tvdb/6209c5041016d.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/moon-knight' },
       { url: 'https://www.disneyplus.com/en-gb/series/moon-knight/4S3oOF1knocS', type: 'stream' },
@@ -456,7 +456,7 @@ const works: Work[] = [
     date: '2022-06-08',
     slug: 'ms-marvel-2022',
     like: '3',
-    images: [{ url: '/tvdb/62a0dc0c25658.jpg' }],
+    images: [{ url: '/img/tvdb/62a0dc0c25658.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/ms-marvel' },
       { url: 'https://www.disneyplus.com/en-gb/series/ms-marvel/45BsikoMcOOo', type: 'stream' },
@@ -497,7 +497,7 @@ const works: Work[] = [
     date: '2022-08-17',
     slug: 'she-hulk-2022',
     like: '3',
-    images: [{ url: '/tvdb/62868fa5c45a9.jpg' }],
+    images: [{ url: '/img/tvdb/62868fa5c45a9.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/she-hulk' },
       { url: 'https://www.disneyplus.com/en-gb/series/she-hulk-attorney-at-law/gPwaYusKqRQh', type: 'stream' },
@@ -518,7 +518,7 @@ const works: Work[] = [
     date: '2022-10-07',
     slug: 'werewolf-by-night-2022',
     like: '3',
-    images: [{ url: '/tvdb/633f57bfc1f45.jpg' }],
+    images: [{ url: '/img/tvdb/633f57bfc1f45.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/werewolf-by-night' },
       { url: 'https://www.disneyplus.com/en-gb/movies/werewolf-by-night/J1sCDfT3MaDl', type: 'stream' },
@@ -538,7 +538,7 @@ const works: Work[] = [
     date: '2022-11-25',
     slug: 'the-guardians-of-the-galaxy-holiday-special-2022',
     like: '2',
-    images: [{ url: '/tvdb/6380f81a51bf1.jpg' }],
+    images: [{ url: '/img/tvdb/6380f81a51bf1.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/the-guardians-of-the-galaxy-holiday-special' },
       {

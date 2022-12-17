@@ -83,6 +83,7 @@
 <header>
   <h1>Films</h1>
 
+  <!-- svelte-ignore a11y-missing-attribute -->
   <div class="options">
     <div class="btn-grp">
       Streams at:

@@ -5,7 +5,7 @@ const works: Work[] = [
     title: 'Star Trek: Discovery',
     date: '2017-09-24',
     slug: 'star-trek-discovery-2017',
-    images: [{ url: '/tvdb/328711-6.jpg' }],
+    images: [{ url: '/img/tvdb/328711-6.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-discovery' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0PZ01WLQ7HWV13461L4IC2AGN6', which: 'Paramount+', type: 'stream' },
@@ -19,7 +19,7 @@ const works: Work[] = [
     title: 'Star Trek: Short Treks',
     date: '2018-10-04',
     slug: '-2018',
-    images: [{ url: '/tvdb/62060134.jpg' }],
+    images: [{ url: '/img/tvdb/62060134.jpg' }],
     links: [
       // { url: '' },
       // { url: '', type: 'stream' },
@@ -34,7 +34,7 @@ const works: Work[] = [
     date: '2020-01-23',
     slug: 'star-trek-picard-2020',
     like: '2',
-    images: [{ url: '/tvdb/5d262b402df21.jpg' }],
+    images: [{ url: '/img/tvdb/5d262b402df21.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-picard' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0OBCWUHNYV0F412VMO06BOAMD3', type: 'stream' },
@@ -49,7 +49,7 @@ const works: Work[] = [
     date: '2020-08-06',
     slug: 'star-trek-lower-decks-2020',
     like: '3',
-    images: [{ url: '/tvdb/62f77218a6598.jpg' }],
+    images: [{ url: '/img/tvdb/62f77218a6598.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-lower-decks' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0T65F8RP58ZXYVTWG6HXO4ZP2G', type: 'stream' },
@@ -63,7 +63,7 @@ const works: Work[] = [
     title: 'Star Trek: Prodigy',
     date: '2021-10-28',
     slug: 'star-trek-prodigy-2021',
-    images: [{ url: '/tvdb/612fb106d574c.jpg' }],
+    images: [{ url: '/img/tvdb/612fb106d574c.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-prodigy' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0GCY185F3VMWQZEWP22P04WP4K', which: 'Paramount+', type: 'stream' },
@@ -79,7 +79,7 @@ const works: Work[] = [
     date: '2022-05-05',
     slug: 'star-trek-strange-new-worlds-2022',
     like: '4',
-    images: [{ url: '/tvdb/623dea0e4c94a.jpg' }],
+    images: [{ url: '/img/tvdb/623dea0e4c94a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-trek-strange-new-worlds' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0GQ77405RH1XF9XCT2XV8XNMHD', which: 'Paramount+', type: 'stream' },

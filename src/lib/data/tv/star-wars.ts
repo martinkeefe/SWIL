@@ -6,7 +6,7 @@ const works: Work[] = [
     date: '2008-10-03',
     slug: 'star-wars-the-clone-wars-2008',
     like: '4',
-    images: [{ url: '/tvdb/5e7a3a74059fe.jpg' }],
+    images: [{ url: '/img/tvdb/5e7a3a74059fe.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-the-clone-wars' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-the-clone-wars/1wYXzjabXGVZ', type: 'stream' },
@@ -21,7 +21,7 @@ const works: Work[] = [
     date: '2014-10-03',
     slug: 'star-wars-rebels-2014',
     like: '3',
-    images: [{ url: '/tvdb/601814c2e650f.jpg' }],
+    images: [{ url: '/img/tvdb/601814c2e650f.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-rebels' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-rebels/64MCZgAzY0Zw', type: 'stream' },
@@ -36,7 +36,7 @@ const works: Work[] = [
     date: '2018-10-07',
     slug: 'star-wars-resistance-2018',
     like: '2',
-    images: [{ url: '/tvdb/5dac314cec5e9.jpg' }],
+    images: [{ url: '/img/tvdb/5dac314cec5e9.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-resistance' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-resistance/FQwsUthRSbnp', type: 'stream' },
@@ -51,7 +51,7 @@ const works: Work[] = [
     date: '2019-11-12',
     slug: 'the-mandalorian-2019',
     like: '3',
-    images: [{ url: '/tvdb/5f60f94e53d3b.jpg' }],
+    images: [{ url: '/img/tvdb/5f60f94e53d3b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-mandalorian' },
       { url: 'https://www.disneyplus.com/en-gb/series/the-mandalorian/3jLIGMDYINqD', type: 'stream' },
@@ -66,7 +66,7 @@ const works: Work[] = [
     date: '2021-05-04',
     slug: 'star-wars-the-bad-batch-2021',
     like: '3',
-    images: [{ url: '/tvdb/606485978d16f.jpg' }],
+    images: [{ url: '/img/tvdb/606485978d16f.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-bad-batch' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-the-bad-batch/4gMliqFxxqXC', type: 'stream' },
@@ -81,7 +81,7 @@ const works: Work[] = [
     date: '2021-09-22',
     slug: 'star-wars-visions-2021',
     like: '2',
-    images: [{ url: '/tvdb/6139de458f13b.jpg' }],
+    images: [{ url: '/img/tvdb/6139de458f13b.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/star-wars-visions' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-visions/5AiiTRJ7OaKg', type: 'stream' },
@@ -96,7 +96,7 @@ const works: Work[] = [
     date: '2021-12-29',
     slug: 'the-book-of-boba-fett-2021',
     like: '1',
-    images: [{ url: '/tvdb/61804f4031a13.jpg' }],
+    images: [{ url: '/img/tvdb/61804f4031a13.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-book-of-boba-fett' },
       { url: 'https://www.disneyplus.com/en-gb/series/the-book-of-boba-fett/57TL7zLNu2wf', type: 'stream' },
@@ -111,7 +111,7 @@ const works: Work[] = [
     date: '2022-05-27',
     slug: 'obi-wan-kenobi-2022',
     like: '3',
-    images: [{ url: '/tvdb/6204374e6bb0a.jpg' }],
+    images: [{ url: '/img/tvdb/6204374e6bb0a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/obi-wan-kenobi' },
       { url: 'https://www.disneyplus.com/en-gb/series/obi-wan-kenobi/2JYKcHv9fRJb', type: 'stream' },
@@ -126,7 +126,7 @@ const works: Work[] = [
     date: '2022-09-21',
     slug: 'andor-2022',
     like: '4',
-    images: [{ url: '/tvdb/632f4c7a0c9da.jpg' }],
+    images: [{ url: '/img/tvdb/632f4c7a0c9da.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/andor' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-andor/3xsQKWG00GL5', type: 'stream' },
@@ -140,7 +140,7 @@ const works: Work[] = [
     title: 'Star Wars: Tales of the Jedi',
     date: '2022-10-26',
     slug: 'star-wars-tales-of-the-jedi-2022',
-    images: [{ url: '/tvdb/6370e38d2d28a.jpg' }],
+    images: [{ url: '/img/tvdb/6370e38d2d28a.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/tales-of-the-jedi' },
       { url: 'https://www.disneyplus.com/en-gb/series/star-wars-tales-of-the-jedi/7ZQbZDR64MvB', type: 'stream' },
