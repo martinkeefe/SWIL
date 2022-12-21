@@ -940,7 +940,24 @@ const works: Work[] = [
   },
 ];
 
-export default works;
+import dc from './dc';
+import marvel from './marvel';
+import star_trek from './star-trek';
+import star_wars from './star-wars';
+
+const tag_with = (tag: string) => (work: Work) => {
+  if (!work.tags) work.tags = new Set();
+  work.tags.add(tag);
+  return work;
+};
+
+export default [
+  ...works,
+  ...dc.map(tag_with('dc')),
+  ...marvel.map(tag_with('marvel')),
+  ...star_trek.map(tag_with('star-trek')),
+  ...star_wars.map(tag_with('star-wars')),
+];
 
 /*
   {

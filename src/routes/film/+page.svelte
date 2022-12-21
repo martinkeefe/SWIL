@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import networks from '$lib/data/networks';
-  import { filter, includes } from 'lodash';
+  // import { filter, includes } from 'lodash';
 
   export let data: PageData;
 
@@ -30,39 +30,39 @@
     return { href: href({ nets: null }), class: cls, disabled: cls == 'btn selected' };
   };
 
-  $: exc_tag_chk = (tag: string) => {
-    const tags = new Set(data.exs?.split('|'));
-    const cls = data.exs != null && tags.has(tag) ? 'chk selected' : 'chk';
+  // $: exc_tag_chk = (tag: string) => {
+  //   const tags = new Set(data.exs?.split('|'));
+  //   const cls = data.exs != null && tags.has(tag) ? 'chk selected' : 'chk';
 
-    if (tags.has(tag)) tags.delete(tag);
-    else tags.add(tag);
-    const exs = tags.size > 0 ? [...tags.values()].join('|') : null;
+  //   if (tags.has(tag)) tags.delete(tag);
+  //   else tags.add(tag);
+  //   const exs = tags.size > 0 ? [...tags.values()].join('|') : null;
 
-    return { href: href({ exs }), class: cls };
-  };
+  //   return { href: href({ exs }), class: cls };
+  // };
 
-  $: exc_none_btn = () => {
-    const cls = data.exs == null ? 'btn selected' : 'btn';
+  // $: exc_none_btn = () => {
+  //   const cls = data.exs == null ? 'btn selected' : 'btn';
 
-    return { href: href({ exs: null }), class: cls, disabled: cls == 'btn selected' };
-  };
+  //   return { href: href({ exs: null }), class: cls, disabled: cls == 'btn selected' };
+  // };
 
-  $: inc_tag_chk = (tag: string) => {
-    const tags = new Set(data.ins?.split('|'));
-    const cls = data.ins != null && tags.has(tag) ? 'chk selected' : 'chk';
+  // $: inc_tag_chk = (tag: string) => {
+  //   const tags = new Set(data.ins?.split('|'));
+  //   const cls = data.ins != null && tags.has(tag) ? 'chk selected' : 'chk';
 
-    if (tags.has(tag)) tags.delete(tag);
-    else tags.add(tag);
-    const ins = tags.size > 0 ? [...tags.values()].join('|') : null;
+  //   if (tags.has(tag)) tags.delete(tag);
+  //   else tags.add(tag);
+  //   const ins = tags.size > 0 ? [...tags.values()].join('|') : null;
 
-    return { href: href({ ins }), class: cls };
-  };
+  //   return { href: href({ ins }), class: cls };
+  // };
 
-  $: only_none_btn = () => {
-    const cls = data.ins == null ? 'btn selected' : 'btn';
+  // $: only_none_btn = () => {
+  //   const cls = data.ins == null ? 'btn selected' : 'btn';
 
-    return { href: href({ exs: null }), class: cls, disabled: cls == 'btn selected' };
-  };
+  //   return { href: href({ exs: null }), class: cls, disabled: cls == 'btn selected' };
+  // };
 
   function href(arg: Partial<PageData>) {
     const { init, works, nets, exs, ins, ...qry }: PageData = { ...data, ...arg };

@@ -426,7 +426,7 @@ const works: Work[] = [
     title: 'Enola Holmes 2',
     date: '2022-11-04',
     slug: 'enola-holmes-2-2022',
-    // like: "3",
+    like: '3',
     images: [{ url: '/img/tvdb/632f78cc402e8.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/movie/enola-holmes-2' },
@@ -490,30 +490,6 @@ const works: Work[] = [
         text: `A bank teller called Guy realizes he is a background character in an open world video 
                game called Free City that will soon go offline.`,
         src: 'https://www.themoviedb.org/movie/550988-free-guy',
-      },
-    ],
-  },
-  {
-    title: 'The French Dispatch',
-    date: '2021-07-12',
-    slug: 'the-french-dispatch-2021',
-    // like: "3",
-    images: [{ url: '/img/tvdb/5f66703a94000.jpg' }],
-    links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-french-dispatch' },
-      { url: 'https://www.disneyplus.com/en-gb/movies/the-french-dispatch/5FqFa5sKK2AY', type: 'stream' },
-      { url: 'https://www.imdb.com/title/tt8847712', score: '7.3 81K' },
-      { url: 'https://en.wikipedia.org/wiki/The_French_Dispatch' },
-      { url: 'https://www.rottentomatoes.com/m/the_french_dispatch', score: '75% 76%' },
-      { url: 'https://www.themoviedb.org/movie/542178-the-french-dispatch', score: '72%' },
-      { url: 'https://thetvdb.com/movies/the-french-dispatch' },
-    ],
-    texts: [
-      {
-        text: `The staff of an American magazine based in France puts out its last issue, with 
-               stories featuring an artist sentenced to life imprisonment, student riots, and a 
-               kidnapping resolved by a chef.`,
-        src: 'https://www.themoviedb.org/movie/542178-the-french-dispatch',
       },
     ],
   },
@@ -1244,7 +1220,8 @@ const works: Work[] = [
   },
 ];
 
-export default works;
+import wes_anderson from './wes-anderson';
+export default [...works, ...wes_anderson];
 
 /*
   {
@@ -1260,6 +1237,7 @@ export default works;
       { url: "" },
       { url: "", score: "% %" },
       { url: "", score: "%" },
+      { url: "" },
     ],
     texts: [
       { 

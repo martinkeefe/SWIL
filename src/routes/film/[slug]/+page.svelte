@@ -44,7 +44,7 @@
 </script>
 
 <svelte:head>
-  <title>SWIL - TV - {data.title}</title>
+  <title>SWIL - Film - {data.title}</title>
 </svelte:head>
 
 <div class="wrapper">
@@ -58,7 +58,7 @@
       {/if}
     </span>
     <span class="year">({data.date.substring(0, 4)})</span>
-    <span class="like">{'★★★★'.substring(0, Number(data.like ?? '0'))}</span>
+    <span class="like">{'★★★★★'.substring(0, Number(data.like ?? '0'))}</span>
 
     {#if streams.length > 0}
       <div>
@@ -87,6 +87,7 @@
       <br />
     {/if}
 
+    Links:<br />
     {#if imdb}
       <div>
         <a href={imdb.url}>IMDB</a>

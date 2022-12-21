@@ -137,8 +137,9 @@
       </a>
       ({show.date.substring(0, 4)})
       {'★★★★★'.substring(0, Number(show.like ?? '0'))}
+      <!-- {Array(...(show.tags?.keys() ?? [])).join(' ')} -->
       {#if data.show == 'all' && show.like == null}
-        <span class="todo">YTW</span>
+        <span class="todo">Yet to watch</span>
       {/if}
     </div>
   {/each}

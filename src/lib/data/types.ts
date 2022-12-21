@@ -7,6 +7,7 @@ export type Work = {
   links: Link[];
   texts?: Text[];
   seasons?: Season[];
+  tags?: Set<string>;
 };
 
 export type Link = {
