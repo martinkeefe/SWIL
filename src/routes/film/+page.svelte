@@ -173,25 +173,25 @@
   a.chk {
     font-family: Lato, sans-serif;
     font-size: 16px;
-    color: antiquewhite;
+    color: var(--fg-btn);
     padding: 1px 0.5rem 0.2rem 0.5rem;
-    border: 1px solid antiquewhite;
+    border: 1px solid var(--fg);
     border-radius: 1rem;
     display: inline-block;
-    background-color: rgb(40, 34, 78);
+    background-color: var(--bg-btn);
   }
   a.chk {
     border-radius: 0;
   }
   a.btn.selected,
   a.chk.selected {
-    background-color: rgb(84, 71, 167);
+    background-color: var(--bg-btn-sel);
   }
   a.btn:hover,
   a.chk:hover {
-    color: darkslateblue;
+    color: var(--bg-btn);
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: var(--fg-btn);
   }
 
   .btn-grp {

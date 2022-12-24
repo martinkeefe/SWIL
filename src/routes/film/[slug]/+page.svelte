@@ -2,6 +2,8 @@
   import type { PageData } from './$types';
   import type { Link } from '$lib/data/types';
 
+  import Title from '$lib/Title.svelte';
+
   export let data: PageData;
 
   let streams: Link[] = [];
@@ -50,20 +52,9 @@
 <div class="wrapper">
   <img src={data.images[0].url} alt={data.title} />
   <div class="info">
-    {#if data.genres && data.genres.length > 0}
-      <span class="genre">{data.genres}</span>
-    {/if}
-    <span class="title">
-      {#if wp}
-        <a href={wp.url}>{data.title}</a>
-      {:else}
-        {data.title}
-      {/if}
-    </span>
-    <span class="year">({data.date.substring(0, 4)})</span>
-    <span class="like">{'★★★★★'.substring(0, Number(data.like ?? '0'))}</span>
+    <Title work={data} />
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; margin-top: 1rem;">
+    <div class="two-col">
       <div>
         {#if streams.length > 0}
           <div>
@@ -169,24 +160,10 @@
     padding: 1rem;
   }
 
-  .genre {
-    display: block;
-    font-family: Lato, sans-serif;
-  }
-  .title {
-    font-weight: 600;
-    font-style: italic;
-    /* font-family: Lato, sans-serif;
-    font-weight: 400; */
-    font-size: xx-large;
-  }
-  .year {
-    font-size: xx-large;
-    margin-left: 1rem;
-  }
-  .like {
-    font-size: xx-large;
-    margin-left: 1rem;
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
   }
 
   p {
