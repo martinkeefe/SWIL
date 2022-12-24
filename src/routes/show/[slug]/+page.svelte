@@ -11,6 +11,8 @@
   let wp: Link | undefined;
   let rt: Link | undefined;
   let tvdb: Link | undefined;
+  let bbc: Link | undefined;
+  let ch4: Link | undefined;
 
   for (const link of data.links) {
     switch (new URL(link.url).host) {
@@ -29,10 +31,18 @@
       case 'thetvdb.com':
         tvdb = { ...link };
         break;
+      case 'www.bbc.co.uk':
+        if (link.type == 'stream') streams.push({ ...link });
+        else bbc = { ...link };
+        break;
+      case 'www.channel4.com':
+        if (link.type == 'stream') streams.push({ ...link });
+        else ch4 = { ...link };
+        break;
       default:
         if (link.type) {
           if (link.type == 'stream') streams.push({ ...link });
-          else buys.push({ ...link });
+          // else buys.push({ ...link });
         }
         break;
     }
@@ -111,6 +121,18 @@
     {#if tvdb}
       <div>
         <a href={tvdb.url}>TVDB</a>
+      </div>
+    {/if}
+
+    {#if bbc}
+      <div>
+        <a href={bbc.url}>BBC</a>
+      </div>
+    {/if}
+
+    {#if ch4}
+      <div>
+        <a href={ch4.url}>Channel Four</a>
       </div>
     {/if}
 

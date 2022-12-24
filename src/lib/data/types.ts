@@ -8,11 +8,13 @@ export type Work = {
   texts?: Text[];
   seasons?: Season[];
   tags?: Set<string>;
+  why?: 'like' | 'want' | 'data';
+  genres?: string;
 };
 
 export type Link = {
   url: string;
-  type?: 'stream' | 'buy';
+  type?: 'stream' | 'buy' | 'why';
   score?: string;
   which?: string;
 };

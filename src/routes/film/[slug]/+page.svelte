@@ -36,7 +36,7 @@
       default:
         if (link.type) {
           if (link.type == 'stream') streams.push({ ...link });
-          else buys.push({ ...link });
+          // else buys.push({ ...link });
         }
         break;
     }
@@ -50,9 +50,12 @@
 <div class="wrapper">
   <img src={data.images[0].url} alt={data.title} />
   <div class="info">
+    {#if data.genres && data.genres.length > 0}
+      <span class="genre">{data.genres}</span>
+    {/if}
     <span class="title">
-      {#if jw}
-        <a href={jw.url}>{data.title}</a>
+      {#if wp}
+        <a href={wp.url}>{data.title}</a>
       {:else}
         {data.title}
       {/if}
@@ -60,72 +63,89 @@
     <span class="year">({data.date.substring(0, 4)})</span>
     <span class="like">{'★★★★★'.substring(0, Number(data.like ?? '0'))}</span>
 
-    {#if streams.length > 0}
+    <div style="display: grid; grid-template-columns: 1fr 1fr; margin-top: 1rem;">
       <div>
-        Stream at:<br />
-        {#each streams as s (s.url)}
-          <a href={s.url}>{new URL(s.url).host}</a>
-          {#if s.which}
-            ({s.which})
-          {/if}
+        {#if streams.length > 0}
+          <div>
+            Stream at:<br />
+            {#each streams as s (s.url)}
+              <a href={s.url}>{new URL(s.url).host}</a>
+              {#if s.which}
+                ({s.which})
+              {/if}
+              <br />
+            {/each}
+          </div>
           <br />
-        {/each}
-      </div>
-      <br />
-    {:else if buys.length > 0}
-      <div>
-        Buy at:<br />
-        {#each buys as s (s.url)}
-          <a href={s.url}>{new URL(s.url).host}</a><br />
-        {/each}
-      </div>
-      <br />
-    {:else}
-      <div>
-        Not available to stream in UK<br />
-      </div>
-      <br />
-    {/if}
-
-    Links:<br />
-    {#if imdb}
-      <div>
-        <a href={imdb.url}>IMDB</a>
-        {#if imdb.score}
-          {imdb.score[0]} ({imdb.score[1]})
+        {:else if buys.length > 0}
+          <div>
+            Buy at:<br />
+            {#each buys as s (s.url)}
+              <a href={s.url}>{new URL(s.url).host}</a><br />
+            {/each}
+          </div>
+          <br />
+        {:else}
+          <div>
+            Not available to stream in UK<br />
+          </div>
+          <br />
         {/if}
       </div>
-    {/if}
-
-    {#if rt}
       <div>
-        <a href={rt.url}>Rotten Tomatoes</a>
-        {#if rt.score}
-          {rt.score.split(' ').join(' / ')}
+        Links:<br />
+        {#if jw}
+          <div>
+            <a href={jw.url}>JustWatch</a>
+            {#if jw.score}
+              {jw.score}
+            {/if}
+          </div>
+        {/if}
+
+        {#if imdb}
+          <div>
+            <a href={imdb.url}>IMDB</a>
+            {#if imdb.score}
+              {imdb.score[0]}
+              {#if imdb.score[1]}
+                ({imdb.score[1]})
+              {/if}
+            {/if}
+          </div>
+        {/if}
+
+        {#if rt}
+          <div>
+            <a href={rt.url}>Rotten Tomatoes</a>
+            {#if rt.score}
+              {rt.score.split(' ').join(' / ')}
+            {/if}
+          </div>
+        {/if}
+
+        <!-- {#if wp}
+          <div>
+            <a href={wp.url}>Wikipedia</a>
+          </div>
+        {/if} -->
+
+        {#if tmdb}
+          <div>
+            <a href={tmdb.url}>TMDB</a>
+            {#if tmdb.score}
+              {tmdb.score}
+            {/if}
+          </div>
+        {/if}
+
+        {#if tvdb}
+          <div>
+            <a href={tvdb.url}>TVDB</a>
+          </div>
         {/if}
       </div>
-    {/if}
-
-    {#if wp}
-      <div>
-        <a href={wp.url}>Wikipedia</a>
-      </div>
-    {/if}
-
-    {#if tmdb}
-      <div>
-        <a href={tmdb.url}>TMDB</a>
-        {#if tmdb.score}
-          {tmdb.score}
-        {/if}
-      </div>
-    {/if}
-
-    {#if tvdb}
-      <div>
-        <a href={tvdb.url}>TVDB</a>
-      </div>
-    {/if}
+    </div>
 
     {#if data.texts && data.texts.length > 0}
       <p>{data.texts[0].text}</p>
@@ -136,7 +156,7 @@
 <style>
   .wrapper {
     display: flex;
-    max-width: 80rem;
+    max-width: 65rem;
     margin: 0 auto;
   }
 
@@ -149,6 +169,10 @@
     padding: 1rem;
   }
 
+  .genre {
+    display: block;
+    font-family: Lato, sans-serif;
+  }
   .title {
     font-weight: 600;
     font-style: italic;

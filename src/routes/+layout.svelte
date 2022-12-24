@@ -22,7 +22,7 @@
     background-color: darkslategrey;
     font-family: 'Alegreya', serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 110%;
   }
   a {
     color: white;

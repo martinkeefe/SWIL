@@ -48,7 +48,7 @@ export const list_of_works = (url: URL, films: Work[], init: Record<string, stri
     return wks;
   };
 
-  let works = films;
+  let works = films.filter((w) => w.why != 'data');
 
   works = filter(works, 'dc');
   works = filter(works, 'marvel');

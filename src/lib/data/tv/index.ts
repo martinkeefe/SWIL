@@ -14,6 +14,13 @@ const works: Work[] = [
       { url: 'https://www.rottentomatoes.com/tv/1899', score: '77% 76%' },
       { url: 'https://thetvdb.com/series/1899-show' },
     ],
+    texts: [
+      {
+        text: `Immigrants on a steamship traveling from London to New York get caught up in a 
+               mysterious riddle after finding a second vessel adrift on the open sea.`,
+        src: 'https://www.rottentomatoes.com/tv/1899',
+      },
+    ],
   },
   {
     title: 'Altered Carbon',
@@ -58,6 +65,13 @@ const works: Work[] = [
       { url: 'https://www.rottentomatoes.com/tv/arcane_league_of_legends', score: '100% 96%' },
       { url: 'https://thetvdb.com/series/arcane' },
     ],
+    texts: [
+      {
+        text: `The origins of two iconic League champions, set in the utopian Piltover and the
+               oppressed underground of Zaun.`,
+        src: 'https://www.rottentomatoes.com/tv/arcane_league_of_legends',
+      },
+    ],
   },
   {
     title: 'The Bridge',
@@ -72,6 +86,14 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/The_Bridge_(2011_TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/the_bridge_2011', score: '- 94%' },
       { url: 'https://thetvdb.com/series/the-bridge-2011' },
+      { url: 'https://www.bbc.co.uk/programmes/b03bnc34' },
+    ],
+    texts: [
+      {
+        text: `When a body is discovered on a bridge between Denmark and Sweden, the two countries
+               have to work together in order to catch the killer.`,
+        src: 'https://www.rottentomatoes.com/tv/the_bridge_2011',
+      },
     ],
   },
   {
@@ -86,6 +108,13 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Chernobyl_(miniseries)' },
       { url: 'https://www.rottentomatoes.com/tv/chernobyl', score: '95% 97%' },
       { url: 'https://thetvdb.com/series/chernobyl' },
+    ],
+    texts: [
+      {
+        text: `Brave men and women act heroically to mitigate catastrophic damage when the
+               Chernobyl Nuclear Power Plant suffers a nuclear accident on April 26, 1986.`,
+        src: 'https://www.rottentomatoes.com/tv/chernobyl',
+      },
     ],
   },
   {
@@ -178,10 +207,12 @@ const works: Work[] = [
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/devs' },
       { url: 'https://www.disneyplus.com/en-gb/series/devs/6yHO6txGKqMC', type: 'stream' },
+      { url: 'https://www.bbc.co.uk/iplayer/episodes/p087gj19/devs', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt8134186/?ref_=justwatch', score: '7.7 40K' },
       { url: 'https://en.wikipedia.org/wiki/Devs' },
       { url: 'https://www.rottentomatoes.com/tv/devs', score: '82% 78%' },
       { url: 'https://thetvdb.com/series/devs' },
+      { url: 'https://www.bbc.co.uk/programmes/p087gj19' },
     ],
     texts: [
       {
@@ -240,6 +271,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/The_End_of_the_F***ing_World' },
       { url: 'https://www.rottentomatoes.com/tv/the_end_of_the_f_ing_world', score: '94% 92%' },
       { url: 'https://thetvdb.com/series/the-end-of-the-f-ing-world' },
+      { url: 'https://www.channel4.com/programmes/the-end-of-the-fing-world' },
     ],
     texts: [
       {
@@ -348,6 +380,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Gentleman_Jack_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/gentleman_jack', score: '92% 94%' },
       { url: 'https://thetvdb.com/series/gentleman-jack' },
+      { url: 'https://www.bbc.co.uk/programmes/m00059m9' },
     ],
     texts: [
       {
@@ -378,6 +411,19 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Good_Omens_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/good_omens', score: '84% 90%' },
       { url: 'https://thetvdb.com/series/good-omens' },
+      { url: 'https://www.bbc.co.uk/programmes/m000dbf0' },
+    ],
+    texts: [
+      {
+        text: `This fantasy series sees fussy angel Aziraphale and loose-living demon Crowley team
+               up to form an unlikely duo. The two have become overly fond of life on Earth, and 
+               they are forced into forming an alliance in an attempt to stop the approaching 
+               Armageddon. To do that, they have to find the missing Antichrist, an 11-year-old boy
+               who is unaware that he is meant to bring the end of days upon humanity. Michael 
+               Sheen, David Tennant and Jon Hamm star in the series, which is based on the book of 
+               the same name by Terry Pratchett and Neil Gaiman.`,
+        src: 'https://www.rottentomatoes.com/tv/good_omens',
+      },
     ],
   },
   {
@@ -394,6 +440,19 @@ const works: Work[] = [
       { url: 'https://www.rottentomatoes.com/tv/good_place', score: '97% 89%' },
       { url: 'https://thetvdb.com/series/the-good-place' },
     ],
+    texts: [
+      {
+        text: `When Eleanor Shellstrop finds herself in the afterlife, she's both relieved and
+               surprised that she's made it into the Good Place. But it doesn't take long for 
+               Eleanor to realize she's there by mistake. She hides in plain sight from the Good 
+               Place's architect, Michael, and his all-knowing assistant, Janet. Her seemingly 
+               perfect neighbors, Tahani and Jason, and open-hearted soul mate, Chidi, help her 
+               realize that it's never too late to change. With the help of her new friends -- and
+               a few enemies -- Eleanor becomes determined to shed her old way of life in hopes of 
+               discovering a new one in the afterlife.`,
+        src: 'https://www.rottentomatoes.com/tv/good_place',
+      },
+    ],
   },
   {
     title: 'Gravity Falls',
@@ -407,6 +466,18 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Gravity_Falls' },
       { url: 'https://www.rottentomatoes.com/tv/gravity_falls', score: '100% 96%' },
       { url: 'https://thetvdb.com/series/gravity-falls' },
+    ],
+    texts: [
+      {
+        text: `Twins Dipper and Mabel Pines are sent to spend the summer with their great-uncle,
+               Grunkle Stan, in the mysterious town of Gravity Falls, Ore. Grunkle Stan has the 
+               kids help him run The Mystery Shack, the tourist trap that he owns. The twins try to
+               adapt to the weird surroundings but sense there is something strange about Gravity 
+               Falls and begin to unlock its secrets. When Dipper uncovers a cryptic journal that 
+               offers insight into the town's mysteries, he and Mabel use it and their enthusiastic
+               desire to vanquish evil to battle the imminent mysteries that surround them.`,
+        src: 'https://www.rottentomatoes.com/tv/gravity_falls',
+      },
     ],
   },
   {
@@ -422,6 +493,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/His_Dark_Materials_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/his_dark_materials', score: '81% 85%' },
       { url: 'https://thetvdb.com/series/his-dark-materials' },
+      { url: 'https://www.bbc.co.uk/programmes/m000b1v2' },
     ],
   },
   {
@@ -462,6 +534,7 @@ const works: Work[] = [
     images: [{ url: '/img/tvdb/628ffd509ebdd.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/the-ipcress-file' },
+      { url: 'https://www.itv.com/watch/the-ipcress-file/10a1209', type: 'stream' },
       { url: 'https://www.britbox.co.uk/series/S1_61911', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt13636038', score: '7.3 4K' },
       { url: 'https://en.wikipedia.org/wiki/The_Ipcress_File_(TV_series)' },
@@ -483,6 +556,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Killing_Eve' },
       { url: 'https://www.rottentomatoes.com/tv/killing_eve', score: '80% 73%' },
       { url: 'https://thetvdb.com/series/killing-eve' },
+      { url: 'https://www.bbc.co.uk/programmes/p06jy6bc' },
     ],
   },
   {
@@ -499,6 +573,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/The_Little_Drummer_Girl_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/the_little_drummer_girl', score: '95% 79%' },
       { url: 'https://thetvdb.com/series/344141-show' },
+      { url: 'https://www.bbc.co.uk/programmes/b0bqs366' },
     ],
   },
   {
@@ -580,6 +655,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Mrs_Wilson_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/mrs_wilson', score: '91% -' },
       { url: 'https://thetvdb.com/series/mrs-wilson' },
+      { url: 'https://www.bbc.co.uk/programmes/b0btk3w3' },
     ],
   },
   {
@@ -595,6 +671,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/The_Night_Manager_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/the_night_manager', score: '91% 89%' },
       { url: 'https://thetvdb.com/series/the-night-manager' },
+      { url: 'https://www.bbc.co.uk/programmes/p03g13rt' },
     ],
   },
   {
@@ -651,6 +728,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Our_Flag_Means_Death' },
       { url: 'https://www.rottentomatoes.com/tv/our_flag_means_death', score: '92% 94%' },
       { url: 'https://thetvdb.com/series/our-flag-means-death' },
+      { url: 'https://www.bbc.co.uk/programmes/p0dk8t20' },
     ],
   },
   {
@@ -743,13 +821,14 @@ const works: Work[] = [
     images: [{ url: '/img/tvdb/5f86df37a9a6c.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/roadkill-2020' },
+      { url: 'https://www.bbc.co.uk/iplayer/episode/p08tfrq3/roadkill', type: 'stream' },
       { url: 'https://www.netflix.com/gb/title/81464587', type: 'stream' },
       { url: 'https://www.disneyplus.com/en-gb/series/roadkill/MfkhvewEO47G', type: 'stream' },
-      { url: 'https://www.bbc.co.uk/iplayer/episode/p08tfrq3/roadkill', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt10846250', score: '6.8 5K' },
       { url: 'https://en.wikipedia.org/wiki/Roadkill_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/roadkill', score: '68% 71%' },
       { url: 'https://thetvdb.com/series/roadkill-2020' },
+      { url: 'https://www.bbc.co.uk/programmes/p08tfqfs' },
     ],
   },
   {
@@ -861,6 +940,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/Strike_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/c_b_strike_2017', score: '82% 94%' },
       { url: 'https://thetvdb.com/series/strike' },
+      { url: 'https://www.bbc.co.uk/programmes/b093ypxy' },
     ],
   },
   {
@@ -891,6 +971,7 @@ const works: Work[] = [
       { url: 'https://en.wikipedia.org/wiki/The_Watch_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/the_watch', score: '53% 40%' },
       { url: 'https://thetvdb.com/series/the-watch-2021' },
+      { url: 'https://www.bbc.co.uk/programmes/p09jgmfb' },
     ],
   },
   {
@@ -931,11 +1012,13 @@ const works: Work[] = [
     images: [{ url: '/img/tvdb/5c6810de877c4.jpg' }],
     links: [
       { url: 'https://www.justwatch.com/uk/tv-series/what-we-do-in-the-shadows' },
+      { url: 'https://www.bbc.co.uk/iplayer/episodes/m0005bky/what-we-do-in-the-shadows', type: 'stream' },
       { url: 'https://www.disneyplus.com/en-gb/series/what-we-do-in-the-shadows/40SsBvhCRbp1', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt7908628', score: '8.6 78K' },
       { url: 'https://en.wikipedia.org/wiki/What_We_Do_in_the_Shadows_(TV_series)' },
       { url: 'https://www.rottentomatoes.com/tv/what_we_do_in_the_shadows', score: '98% 92%' },
       { url: 'https://thetvdb.com/series/what-we-do-in-the-shadows' },
+      { url: 'https://www.bbc.co.uk/programmes/m0005bky' },
     ],
   },
 ];
@@ -973,6 +1056,12 @@ export default [
       { url: "" },
       { url: "", score: "% %" },
       { url: "" },
+    ],
+    texts: [
+      { 
+        text: ``, 
+        src: ''
+      }
     ],
   },
 */

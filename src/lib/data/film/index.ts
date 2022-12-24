@@ -5,10 +5,11 @@ const works: Work[] = [
     title: 'The 355',
     date: '2022-01-07',
     slug: 'the-355-2022',
+    genres: 'Mystery & Thriller, Action & Adventure, Drama, Comedy, Crime',
     like: '3',
     images: [{ url: '/img/tvdb/5f7c99c5cb740.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-355' },
+      { url: 'https://www.justwatch.com/uk/movie/the-355', score: '67%' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydB7C6eUXjy', type: 'stream' },
       { url: 'https://www.nowtv.com/watch/the-355-2022/A5EK6sKrAaydB7C6eUXjy', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt8356942', score: '5.5 29K' },
@@ -30,10 +31,11 @@ const works: Work[] = [
     title: 'Æon Flux',
     date: '2005-12-02',
     slug: 'aeon-flux-2005',
+    genres: 'Mystery & Thriller, Crime, Action & Adventure, Science-Fiction',
     like: '3',
     images: [{ url: '/img/tvdb/815.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/aeon-flux' },
+      { url: 'https://www.justwatch.com/uk/movie/aeon-flux', score: '62%' },
       { url: 'https://www.netflix.com/gb/title/70045919', type: 'stream' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaycnEPtJVEt3', type: 'stream' },
       { url: 'https://www.nowtv.com/watch/aeon-flux-2005/A5EK6sKrAaycnEPtJVEt3', type: 'stream' },
@@ -57,10 +59,11 @@ const works: Work[] = [
     title: 'All the Old Knives',
     date: '2022-04-08',
     slug: 'all-the-old-knives-2022',
+    genres: 'Mystery & Thriller',
     like: '3',
     images: [{ url: '/img/tvdb/6223d3f1ed25b.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/all-the-old-knives' },
+      { url: 'https://www.justwatch.com/uk/movie/all-the-old-knives', score: '69%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0LO5KEI7J0TVCXES17FQ8XV8R2/ref=atv_dl_rdr', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt3706352', score: '6.1 23K' },
       { url: 'https://en.wikipedia.org/wiki/All_the_Old_Knives' },
@@ -81,10 +84,11 @@ const works: Work[] = [
     title: 'American Hustle',
     date: '2013-12-08',
     slug: 'american-hustle-2013',
+    genres: 'Crime, Drama',
     like: '2',
     images: [{ url: '/img/tvdb/1699.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/american-hustle' },
+      { url: 'https://www.justwatch.com/uk/movie/american-hustle', score: '77%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt1800241', score: '7.2 479K' },
       { url: 'https://en.wikipedia.org/wiki/American_Hustle' },
@@ -104,16 +108,22 @@ const works: Work[] = [
     title: 'The Batman',
     date: '2022-03-01',
     slug: 'the-batman-200',
+    genres: 'Mystery & Thriller, Science-Fiction, Action & Adventure, Crime, Drama',
     like: '4',
     images: [{ url: '/img/tvdb/616c6d43be6a7.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-batman' },
+      { url: 'https://www.justwatch.com/uk/movie/the-batman', score: '87%' },
       { url: 'https://www.nowtv.com/watch/the-batman-2022/A5EK6sKrAaydGp2JA4Rqm', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1877830', score: '7.8 628K' },
       { url: 'https://en.wikipedia.org/wiki/The_Batman_(film)' },
       { url: 'https://www.rottentomatoes.com/m/the_batman', score: '85% 87%' },
       { url: 'https://www.themoviedb.org/movie/414906-the-batman', score: '77%' },
       { url: 'https://thetvdb.com/movies/the-batman' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
     ],
     texts: [
       {
@@ -127,10 +137,11 @@ const works: Work[] = [
     title: 'The Big Short',
     date: '2015-11-12',
     slug: 'the-big-short-2015',
+    genres: 'Comedy, Drama, History',
     like: '4',
     images: [{ url: '/img/tvdb/1238.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-big-short' },
+      { url: 'https://www.justwatch.com/uk/movie/the-big-short', score: '83%' },
       { url: 'https://www.netflix.com/gb/title/80075560', type: 'stream' },
       { url: 'https://www.disneyplus.com/en-gb/movies/the-big-short/6aOHznhmYyfM', type: 'stream' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0MF1HTWG2SKHRC9ADYRXKTX05M/ref=atv_dl_rdr', type: 'stream' },
@@ -151,10 +162,11 @@ const works: Work[] = [
     title: 'Blow-Up',
     date: '1966-12-18',
     slug: 'blow-up-1966',
+    genres: 'Mystery & Thriller, Drama, Made in Europe',
     like: '5',
     images: [{ url: '/img/tvdb/4183.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/blow-up' },
+      { url: 'https://www.justwatch.com/uk/movie/blow-up', score: '82%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0060176', score: '7.6 60K' },
       { url: 'https://en.wikipedia.org/wiki/Blowup' },
@@ -175,10 +187,11 @@ const works: Work[] = [
     title: 'Bullet Train',
     date: '2022-07-18',
     slug: 'bullet-train-2022',
+    genres: 'Mystery & Thriller, Action & Adventure, Comedy',
     like: '1',
     images: [{ url: '/img/tvdb/62e7d920701cd.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/bullet-train' },
+      { url: 'https://www.justwatch.com/uk/movie/bullet-train', score: '84%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt12593682', score: '7.3 191K' },
       { url: 'https://en.wikipedia.org/wiki/Bullet_Train_(film)' },
@@ -197,10 +210,11 @@ const works: Work[] = [
     title: 'The Clockwork Girl',
     date: '2014-01-12',
     slug: 'the-clockwork-girl-2014',
-    // like: "3",
+    genres: 'Fantasy, Animation',
+    // like: '3',
     images: [{ url: '/img/tvdb/jBY5jia6kDm2IFN6H3bqqvoegF2.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-clockwork-girl' },
+      { url: 'https://www.justwatch.com/uk/movie/the-clockwork-girl', score: '63%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt1290393/?ref_=justwatch', score: '4.9' },
       { url: 'https://en.wikipedia.org/wiki/The_Clockwork_Girl_(film)' },
@@ -221,10 +235,11 @@ const works: Work[] = [
     title: 'Collateral',
     date: '2004-08-06',
     slug: 'collateral-2004',
+    genres: 'Drama, Mystery & Thriller, Action & Adventure, Crime',
     like: '5',
     images: [{ url: '/img/tvdb/990.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/collateral' },
+      { url: 'https://www.justwatch.com/uk/movie/collateral', score: '81%' },
       { url: 'https://www.netflix.com/gb/title/60036246', type: 'stream' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaycn5YHUvm8S', type: 'stream' },
       { url: 'https://www.nowtv.com/watch/collateral-2004/A5EK6sKrAaycn5YHUvm8S', type: 'stream' },
@@ -246,10 +261,11 @@ const works: Work[] = [
     title: 'The Courier',
     date: '2020-01-24',
     slug: 'the-courier-2020',
+    genres: 'Drama, History, Mystery & Thriller, War & Military, Action & Adventure',
     like: '3',
     images: [{ url: '/img/tvdb/6011d41dc8e45.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-courier-2021' },
+      { url: 'https://www.justwatch.com/uk/movie/the-courier-2021', score: '78%' },
       { url: 'https://www.netflix.com/gb/title/81173715', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt8368512', score: '7.2' },
       { url: 'https://en.wikipedia.org/wiki/The_Courier_(2020_film)' },
@@ -269,10 +285,11 @@ const works: Work[] = [
     title: 'Cruella',
     date: '2021-05-18',
     slug: 'cruella-2021',
+    genres: 'Comedy, Crime, Drama',
     like: '4',
     images: [{ url: '/img/tvdb/606dd6c6a548c.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/cruella' },
+      { url: 'https://www.justwatch.com/uk/movie/cruella', score: '86%' },
       { url: 'https://www.disneyplus.com/en-gb/movies/cruella/2GJTZuO8I01c', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt3228774', score: '7.3 233K' },
       { url: 'https://en.wikipedia.org/wiki/Cruella_(film)' },
@@ -298,10 +315,11 @@ const works: Work[] = [
     title: 'Danger: Diabolik',
     date: '1968-01-24',
     slug: 'danger-diabolik-1968',
+    genres: 'Action & Adventure, Comedy, Crime, Made in Europe',
     like: '3',
     images: [{ url: '/img/tvdb/5e7a757ad25c0.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/danger-diabolik' },
+      { url: 'https://www.justwatch.com/uk/movie/danger-diabolik', score: '70%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0062861', score: '6.5 6K' },
       { url: 'https://en.wikipedia.org/wiki/Danger:_Diabolik' },
@@ -322,10 +340,11 @@ const works: Work[] = [
     title: "Don't Worry Darling",
     date: '2022-09-05',
     slug: 'dont-worry-darling-2022',
+    genres: 'Mystery & Thriller, Science-Fiction, Drama, Horror, Crime',
     // like: '3',
     images: [{ url: '/img/tvdb/637376848053d.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/dont-worry-darling' },
+      { url: 'https://www.justwatch.com/uk/movie/dont-worry-darling', score: '74%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt10731256', score: '6.2 74K' },
       { url: 'https://en.wikipedia.org/wiki/Don%27t_Worry_Darling' },
@@ -349,10 +368,11 @@ const works: Work[] = [
     title: 'Dune',
     date: '2021-09-03',
     slug: 'dune-2021',
+    genres: 'Science-Fiction, Drama, Action & Adventure',
     like: '4',
     images: [{ url: '/img/tvdb/61124850aadd2.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/dune-2020' },
+      { url: 'https://www.justwatch.com/uk/movie/dune-2020', score: '88%' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydtVEmevcJq', type: 'stream' },
       { url: 'https://www.nowtv.com/watch/dune-2021-2021/A5EK6sKrAaydtVEmevcJq', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1160419', score: '8.0 627K' },
@@ -377,10 +397,11 @@ const works: Work[] = [
     title: 'Edge of Tomorrow',
     date: '2014-05-28',
     slug: 'edge-of-tomorrow-2014',
+    genres: 'Science-Fiction, Action & Adventure',
     like: '4',
     images: [{ url: '/img/tvdb/868.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/un-jour-sans-lendemain' },
+      { url: 'https://www.justwatch.com/uk/movie/un-jour-sans-lendemain', score: '85%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0NU6XDUIN17X04OK9AFRZPUKPQ', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1631867', score: '7.9 678K' },
       { url: 'https://en.wikipedia.org/wiki/Edge_of_Tomorrow' },
@@ -403,10 +424,11 @@ const works: Work[] = [
     title: 'Enola Holmes',
     date: '2020-09-23',
     slug: 'enola-holmes-2020',
+    genres: 'Action & Adventure, Mystery & Thriller, Crime, Drama',
     like: '3',
     images: [{ url: '/img/tvdb/5f3c15dd60c0a.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/enola-holmes' },
+      { url: 'https://www.justwatch.com/uk/movie/enola-holmes', score: '78%' },
       { url: 'https://www.netflix.com/gb/title/81277950', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt7846844', score: '6.6 189K' },
       { url: 'https://en.wikipedia.org/wiki/Enola_Holmes_(film)' },
@@ -426,10 +448,11 @@ const works: Work[] = [
     title: 'Enola Holmes 2',
     date: '2022-11-04',
     slug: 'enola-holmes-2-2022',
+    genres: 'Mystery & Thriller, Action & Adventure, Comedy, Crime, Drama',
     like: '3',
     images: [{ url: '/img/tvdb/632f78cc402e8.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/enola-holmes-2' },
+      { url: 'https://www.justwatch.com/uk/movie/enola-holmes-2', score: '82%' },
       { url: 'https://www.netflix.com/gb/title/81406219', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt14641788', score: '6.8 56K' },
       { url: 'https://en.wikipedia.org/wiki/Enola_Holmes_2' },
@@ -450,16 +473,18 @@ const works: Work[] = [
     title: 'Everything Everywhere All at Once',
     date: '2022-03-11',
     slug: 'everything-everywhere-all-at-once-2022',
+    genres: 'Action & Adventure, Science-Fiction, Comedy, Fantasy',
     like: '4',
     images: [{ url: '/img/tvdb/6231280c1f319.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/everything-everywhere-all-at-once' },
+      { url: 'https://www.justwatch.com/uk/movie/everything-everywhere-all-at-once', score: '90%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0MH9TTXBQK7GWTSM4HG4UBWDK4', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt6710474', score: '8.1 244K' },
       { url: 'https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once' },
       { url: 'https://www.rottentomatoes.com/m/everything_everywhere_all_at_once', score: '95% 89%' },
       { url: 'https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once', score: '81%' },
       { url: 'https://thetvdb.com/movies/everything-everywhere-all-at-once' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
     ],
     texts: [
       {
@@ -474,10 +499,11 @@ const works: Work[] = [
     title: 'Free Guy',
     date: '2021-08-10',
     slug: 'free-guy-2021',
+    genres: 'Science-Fiction, Comedy, Fantasy, Action & Adventure',
     like: '3',
     images: [{ url: '/img/tvdb/5f2ded18248ec.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/free-guy' },
+      { url: 'https://www.justwatch.com/uk/movie/free-guy', score: '82%' },
       { url: 'https://www.disneyplus.com/en-gb/movies/free-guy/3qBd6ESjzQOm', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt6264654', score: '7.1 368K' },
       { url: 'https://en.wikipedia.org/wiki/Free_Guy' },
@@ -494,13 +520,38 @@ const works: Work[] = [
     ],
   },
   {
+    title: 'Glass Onion: A Knives Out Mystery',
+    date: '2022-09-10',
+    slug: 'glass-onion-a-knives-out-mystery-2022',
+    genres: 'Crime, Mystery & Thriller, Comedy, Drama',
+    // like: '3',
+    images: [{ url: '/img/tvdb/637098c223a77.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/knives-out-2', score: '88%' },
+      { url: 'https://www.netflix.com/gb/title/81458416', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt11564570', score: '8.0 12K' },
+      { url: 'https://en.wikipedia.org/wiki/Glass_Onion:_A_Knives_Out_Mystery' },
+      { url: 'https://www.rottentomatoes.com/m/glass_onion_a_knives_out_mystery', score: '93% 93%' },
+      { url: 'https://thetvdb.com/movies/knives-out-2' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `World-famous detective Benoit Blanc heads to Greece to peel back the layers of a
+               mystery surrounding a tech billionaire and his eclectic crew of friends.`,
+        src: 'https://thetvdb.com/movies/knives-out-2',
+      },
+    ],
+  },
+  {
     title: 'The Gray Man',
     date: '2022-07-15',
     slug: 'the-gray-man-2022',
+    genres: 'Action & Adventure, Mystery & Thriller',
     like: '3',
     images: [{ url: '/img/tvdb/628e466158864.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-gray-man-2022' },
+      { url: 'https://www.justwatch.com/uk/movie/the-gray-man-2022', score: '76%' },
       { url: 'https://www.netflix.com/gb/title/81160697', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1649418', score: '6.5 191K' },
       { url: 'https://en.wikipedia.org/wiki/The_Gray_Man_(2022_film)' },
@@ -520,10 +571,11 @@ const works: Work[] = [
     title: 'Hot Fuzz',
     date: '2007-02-16',
     slug: 'hot-fuzz-2007',
+    genres: 'Crime, Action & Adventure, Comedy, Mystery & Thriller, Made in Europe',
     like: '3',
     images: [{ url: '/img/tvdb/1279.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/hot-fuzz' },
+      { url: 'https://www.justwatch.com/uk/movie/hot-fuzz', score: '84%' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUCkTp7K9C', type: 'stream' },
       { url: 'https://www.itv.com/watch/hot-fuzz/1a8573', type: 'stream' },
       { url: 'https://www.britbox.co.uk/movie/Hot_Fuzz_66180', type: 'stream' },
@@ -550,10 +602,11 @@ const works: Work[] = [
     title: 'How to Talk to Girls at Parties',
     date: '2017-05-21',
     slug: 'how-to-talk-to-girls-at-parties-2017',
+    genres: 'Music & Musical, Romance, Science-Fiction, Comedy',
     like: '3',
     images: [{ url: '/img/tvdb/8377.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/how-to-talk-to-girls-at-parties' },
+      { url: 'https://www.justwatch.com/uk/movie/how-to-talk-to-girls-at-parties', score: '65%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt3859310', score: '5.7 11K' },
       { url: 'https://en.wikipedia.org/wiki/How_to_Talk_to_Girls_at_Parties_(film)' },
@@ -573,10 +626,11 @@ const works: Work[] = [
     title: 'Iron Sky',
     date: '2012-02-11',
     slug: 'iron-sky-2012',
+    genres: 'Science-Fiction, Action & Adventure, Comedy, Made in Europe',
     like: '4',
     images: [{ url: '/img/tvdb/3429.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/iron-sky' },
+      { url: 'https://www.justwatch.com/uk/movie/iron-sky', score: '65%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt1034314', score: '5.9 94K' },
       { url: 'https://en.wikipedia.org/wiki/Iron_Sky' },
@@ -597,10 +651,11 @@ const works: Work[] = [
     title: 'Iron Sky: The Coming Race',
     date: '2019-01-16',
     slug: 'iron-sky-the-coming-race-2019',
+    genres: 'Action & Adventure, Fantasy, Science-Fiction, Comedy, Made in Europe',
     like: '3',
     images: [{ url: '/img/tvdb/15317.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/iron-sky-the-coming-race' },
+      { url: 'https://www.justwatch.com/uk/movie/iron-sky-the-coming-race', score: '57%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0I9YZV9E8Q6XG47GNAEAVUAORS', type: 'stream' },
       { url: 'https://watch.plex.tv/movie/iron-sky-the-coming-race', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt3038708', score: '5.0 10K' },
@@ -625,10 +680,11 @@ const works: Work[] = [
     title: 'Joker',
     date: '2019-08-31',
     slug: 'joker-2019',
+    genres: 'Crime, Mystery & Thriller, Drama',
     like: '3',
     images: [{ url: '/img/tvdb/5f1d98fbb67d7.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/joker-2019' },
+      { url: 'https://www.justwatch.com/uk/movie/joker-2019', score: '91%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt7286456', score: '8.4 1M' },
       { url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
@@ -648,10 +704,11 @@ const works: Work[] = [
     title: 'Knives Out',
     date: '2019-09-07',
     slug: 'knives-out-2019',
+    genres: 'Mystery & Thriller, Comedy, Crime, Drama',
     like: '4',
     images: [{ url: '/img/tvdb/62009379.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/knives-out' },
+      { url: 'https://www.justwatch.com/uk/movie/knives-out', score: '87%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt8946378', score: '7.9 626K' },
       { url: 'https://en.wikipedia.org/wiki/Knives_Out' },
@@ -674,10 +731,11 @@ const works: Work[] = [
     title: 'Licorice Pizza',
     date: '2021-11-26',
     slug: 'licorice-pizza-2021',
-    // like: "3",
+    genres: 'Comedy, Drama, Romance',
+    // like: '3',
     images: [{ url: '/img/tvdb/6193deacd295d.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/licorice-pizza' },
+      { url: 'https://www.justwatch.com/uk/movie/licorice-pizza', score: '79%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0L0FYSN9I5BV9K9KXRNB24YISQ', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt11271038', score: '7.2 111K' },
       { url: 'https://en.wikipedia.org/wiki/Licorice_Pizza' },
@@ -697,10 +755,11 @@ const works: Work[] = [
     title: 'Mars Attacks!',
     date: '1996-12-13',
     slug: 'mars-attacks-1996',
+    genres: 'Fantasy, Science-Fiction, Comedy',
     like: '4',
     images: [{ url: '/img/tvdb/636085aad64cd.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/mars-attacks' },
+      { url: 'https://www.justwatch.com/uk/movie/mars-attacks', score: '71%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0116996', score: '6.4 228K' },
       { url: 'https://en.wikipedia.org/wiki/Mars_Attacks!' },
@@ -724,10 +783,11 @@ const works: Work[] = [
     title: 'The Mitchells vs. the Machines',
     date: '2021-04-23',
     slug: 'the-mitchells-vs-the-machines-2021',
+    genres: 'Animation, Comedy, Kids & Family, Science-Fiction',
     like: '3',
     images: [{ url: '/img/tvdb/60649cae96e93.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-mitchells-vs-the-machines' },
+      { url: 'https://www.justwatch.com/uk/movie/the-mitchells-vs-the-machines', score: '85%' },
       { url: 'https://www.netflix.com/gb/title/81399614', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt7979580', score: '7.6 107K' },
       { url: 'https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines' },
@@ -748,10 +808,11 @@ const works: Work[] = [
     title: 'Modesty Blaise',
     date: '1966-05-05',
     slug: 'modesty-blaise-1966',
+    // genres: '',
     like: '4',
     images: [{ url: '/img/tvdb/14913.jpg' }],
     links: [
-      // { url: "" },
+      // { url: "", score: '%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0060708', score: '5.0 2.9K' },
       { url: 'https://en.wikipedia.org/wiki/Modesty_Blaise_(1966_film)' },
@@ -775,10 +836,11 @@ const works: Work[] = [
     title: 'Nightmare Alley',
     date: '2021-12-01',
     slug: 'nightmare-alley-2021',
-    // like: "3",
+    genres: 'Drama, Mystery & Thriller, Fantasy, Horror, Action & Adventure, Crime',
+    // like: '3',
     images: [{ url: '/img/tvdb/614401fdefc72.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/nightmare-alley-2021' },
+      { url: 'https://www.justwatch.com/uk/movie/nightmare-alley-2021', score: '78%' },
       { url: 'https://www.disneyplus.com/en-gb/movies/nightmare-alley/4W2fyAIKkAwE', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt7740496', score: '7.0 142K' },
       { url: 'https://en.wikipedia.org/wiki/Nightmare_Alley_(2021_film)' },
@@ -799,10 +861,11 @@ const works: Work[] = [
     title: 'No Time to Die',
     date: '2021-09-28',
     slug: 'no-time-to-die-2021',
+    genres: 'Action & Adventure, Mystery & Thriller',
     like: '4',
     images: [{ url: '/img/tvdb/5edcf50f9598d.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/no-time-to-die-2020' },
+      { url: 'https://www.justwatch.com/uk/movie/no-time-to-die-2020', score: '82%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0RMEI53DMBV7F6I3CL44VRSL9Q', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt2382320', score: '7.3 397K' },
       { url: 'https://en.wikipedia.org/wiki/No_Time_to_Die' },
@@ -825,16 +888,18 @@ const works: Work[] = [
     title: 'Nope',
     date: '2022-07-18',
     slug: 'nope-2022',
+    genres: 'Mystery & Thriller, Horror, Science-Fiction, Fantasy',
     like: '3',
     images: [{ url: '/img/tvdb/629f8c15d85d1.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/nope' },
+      { url: 'https://www.justwatch.com/uk/movie/nope', score: '78%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt10954984', score: '6.9 166K' },
       { url: 'https://en.wikipedia.org/wiki/Nope_(film)' },
       { url: 'https://www.rottentomatoes.com/m/nope', score: '82% 69%' },
       { url: 'https://www.themoviedb.org/movie/762504-nope', score: '70%' },
       { url: 'https://thetvdb.com/movies/nope' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
     ],
     texts: [
       {
@@ -848,10 +913,11 @@ const works: Work[] = [
     title: 'The Old Guard',
     date: '2020-07-10',
     slug: 'the-old-guard-2020',
+    genres: 'Action & Adventure, Fantasy, Mystery & Thriller',
     like: '3',
     images: [{ url: '/img/tvdb/5f0a4f30581ac.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-old-guard' },
+      { url: 'https://www.justwatch.com/uk/movie/the-old-guard', score: '76%' },
       { url: 'https://www.netflix.com/gb/title/81038963', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt7556122', score: '6.6 164K' },
       { url: 'https://en.wikipedia.org/wiki/The_Old_Guard_(2020_film)' },
@@ -871,10 +937,11 @@ const works: Work[] = [
     title: 'On The Rocks',
     date: '2020-09-22',
     slug: 'on-the-rocks-2020',
-    // like: "3",
+    genres: 'Drama, Comedy, Romance',
+    // like: '3',
     images: [{ url: '/img/tvdb/5f406ede5c30a.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/on-the-rocks-2020' },
+      { url: 'https://www.justwatch.com/uk/movie/on-the-rocks-2020', score: '70%' },
       { url: 'https://tv.apple.com/gb/movie/on-the-rocks', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt9606374', score: '6.4 32K' },
       { url: 'https://en.wikipedia.org/wiki/On_the_Rocks_(film)' },
@@ -894,10 +961,11 @@ const works: Work[] = [
     title: 'Only Lovers Left Alive',
     date: '2013-05-25',
     slug: 'only-lovers-left-alive-2013',
+    genres: 'Drama, Romance, Comedy, Fantasy, Horror, Made in Europe',
     like: '3',
     images: [{ url: '/img/tvdb/1178.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/only-lovers-left-alive' },
+      { url: 'https://www.justwatch.com/uk/movie/only-lovers-left-alive', score: '79%' },
       { url: 'https://mubi.com/films/only-lovers-left-alive', type: 'stream' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0KIU92ZUPGYS1QPN55QYVY1274', which: 'Mubi', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1714915', score: '7.2 101K' },
@@ -919,10 +987,11 @@ const works: Work[] = [
     title: 'The Report',
     date: '2019-01-26',
     slug: 'the-report-2019',
+    genres: 'Drama, Mystery & Thriller, Crime, History',
     like: '3',
     images: [{ url: '/img/tvdb/25869119.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-report' },
+      { url: 'https://www.justwatch.com/uk/movie/the-report', score: '77%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0S3RTSC5JCHNWANDVWQT59XL05', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt8236336', score: '7.2 43K' },
       { url: 'https://en.wikipedia.org/wiki/The_Report_(2019_film)' },
@@ -944,10 +1013,11 @@ const works: Work[] = [
     title: 'Scott Pilgrim vs. the World',
     date: '2010-07-27',
     slug: 'scott-pilgrim-vs-the-world-2010',
+    genres: 'Romance, Action & Adventure, Comedy, Fantasy',
     like: '4',
     images: [{ url: '/img/tvdb/1263.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/scott-pilgrim-vs-the-world' },
+      { url: 'https://www.justwatch.com/uk/movie/scott-pilgrim-vs-the-world', score: '82%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0446029', score: '7.5 427K' },
       { url: 'https://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World' },
@@ -970,10 +1040,11 @@ const works: Work[] = [
     title: 'Shaun of the Dead',
     date: '2004-03-29',
     slug: 'shaun-of-the-dead-2004',
+    genres: 'Horror, Comedy, Made in Europe',
     like: '3',
     images: [{ url: '/img/tvdb/770.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/shaun-of-the-dead' },
+      { url: 'https://www.justwatch.com/uk/movie/shaun-of-the-dead', score: '85%' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUETN7YWdh', type: 'stream' },
       { url: 'https://www.itv.com/watch/shaun-of-the-dead/30206', type: 'stream' },
       { url: 'https://www.britbox.co.uk/movie/Shaun_of_the_Dead_66171', type: 'stream' },
@@ -997,10 +1068,11 @@ const works: Work[] = [
     title: "Shoot 'Em Up",
     date: '2007-09-07',
     slug: 'shoot-em-up-2007',
+    genres: 'Action & Adventure, Mystery & Thriller, Comedy, Crime',
     like: '3',
     images: [{ url: '/img/tvdb/4634.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/shoot-em-up' },
+      { url: 'https://www.justwatch.com/uk/movie/shoot-em-up', score: '72%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt0465602', score: '6.6 151K' },
       { url: 'https://en.wikipedia.org/wiki/Shoot_%27Em_Up_(film)' },
@@ -1020,10 +1092,11 @@ const works: Work[] = [
     title: 'Tenet',
     date: '2020-08-26',
     slug: 'tenet-2020',
+    genres: 'Science-Fiction, Mystery & Thriller, Drama, Action & Adventure',
     like: '3',
     images: [{ url: '/img/tvdb/5efdea9ba7821.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/tenet' },
+      { url: 'https://www.justwatch.com/uk/movie/tenet', score: '81%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0KIZA83STTHTAG7QJ2CLY4L4VX', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt6723592', score: '7.3 492K' },
       { url: 'https://en.wikipedia.org/wiki/Tenet_(film)' },
@@ -1044,10 +1117,11 @@ const works: Work[] = [
     title: 'Three Thousand Years of Longing',
     date: '2022-05-20',
     slug: 'three-thousand-years-of-longing-2022',
-    // like: "3",
+    genres: 'Drama, Romance, Fantasy',
+    // like: '3',
     images: [{ url: '/img/tvdb/6320207d9f3b1.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/three-thousand-years-of-longing' },
+      { url: 'https://www.justwatch.com/uk/movie/three-thousand-years-of-longing', score: '78%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt9198364', score: '6.7 30K' },
       { url: 'https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing' },
@@ -1068,10 +1142,11 @@ const works: Work[] = [
     title: 'The Unbearable Weight of Massive Talent',
     date: '2022-03-12',
     slug: 'the-unbearable-weight-of-massive-talent-2022',
+    genres: 'Action & Adventure, Comedy, Crime, Mystery & Thriller',
     like: '3',
     images: [{ url: '/img/tvdb/622ab505e8914.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-unbearable-weight-of-massive-talent' },
+      { url: 'https://www.justwatch.com/uk/movie/the-unbearable-weight-of-massive-talent', score: '77%' },
       { url: 'https://www.amazon.co.uk/gp/video/detail/0OM3RVB242EOJ27IQFW40LII6B', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt11291274', score: '7.0 84K' },
       { url: 'https://en.wikipedia.org/wiki/The_Unbearable_Weight_of_Massive_Talent' },
@@ -1094,10 +1169,11 @@ const works: Work[] = [
     title: 'Under the Skin',
     date: '2013-08-29',
     slug: 'under-the-skin-2013',
+    genres: 'Mystery & Thriller, Science-Fiction, Drama, Horror',
     like: '2',
     images: [{ url: '/img/tvdb/3174.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/under-the-skin' },
+      { url: 'https://www.justwatch.com/uk/movie/under-the-skin', score: '69%' },
       {
         url: 'https://tv.apple.com/gb/movie/under-the-skin/umc.cmc.1zykdmts3zoih21i9apfdwjp7',
         which: 'StudioCanal Presents',
@@ -1126,12 +1202,13 @@ const works: Work[] = [
     title: 'War Dogs',
     date: '2016-08-03',
     slug: 'war-dogs-2016',
+    genres: 'Crime, Comedy, Drama, War & Military',
     like: '3',
     images: [{ url: '/img/tvdb/2102.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/arms-and-the-dudes' },
+      { url: 'https://www.justwatch.com/uk/movie/arms-and-the-dudes', score: '77%' },
       // { url: "", type: "stream" },
-      { url: 'https://www.imdb.com/title/tt2005151', score: '7.1' },
+      { url: 'https://www.imdb.com/title/tt2005151', score: '7.1 222K' },
       { url: 'https://en.wikipedia.org/wiki/War_Dogs_(2016_film)' },
       { url: 'https://www.rottentomatoes.com/m/war_dogs_2016', score: '61% 69%' },
       { url: 'https://www.themoviedb.org/movie/308266-war-dogs', score: '69%' },
@@ -1149,10 +1226,11 @@ const works: Work[] = [
     title: 'The Wolf of Wall Street',
     date: '2013-12-17',
     slug: 'the-wolf-of-wall-street-2013',
+    genres: 'Drama, Comedy, Crime',
     like: '4',
     images: [{ url: '/img/tvdb/389.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-wolf-of-wall-street' },
+      { url: 'https://www.justwatch.com/uk/movie/the-wolf-of-wall-street', score: '90%' },
       { url: 'https://www.netflix.com/gb/title/70266676', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt0993846', score: '8.2 1M' },
       { url: 'https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)' },
@@ -1173,10 +1251,11 @@ const works: Work[] = [
     title: "The World's End",
     date: '2013-07-10',
     slug: 'the-worlds-end-2013',
+    genres: 'Science-Fiction, Action & Adventure, Comedy',
     like: '3',
     images: [{ url: '/img/tvdb/1316.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/the-worlds-end' },
+      { url: 'https://www.justwatch.com/uk/movie/the-worlds-end', score: '75%' },
       { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaybUE7k2LqH7', type: 'stream' },
       { url: 'https://www.nowtv.com/watch/the-worlds-end-2013/A5EK6sKrAaybUE7k2LqH7', type: 'stream' },
       { url: 'https://www.imdb.com/title/tt1213663', score: '6.9 283K' },
@@ -1197,10 +1276,11 @@ const works: Work[] = [
     title: 'Your Name',
     date: '2016-07-03',
     slug: 'your-name-2016',
+    genres: 'Romance, Animation, Drama, Fantasy',
     like: '3',
     images: [{ url: '/img/tvdb/25872277.jpg' }],
     links: [
-      { url: 'https://www.justwatch.com/uk/movie/your-name' },
+      { url: 'https://www.justwatch.com/uk/movie/your-name', score: '93%' },
       // { url: "", type: "stream" },
       { url: 'https://www.imdb.com/title/tt5311514', score: '8.4 267K' },
       { url: 'https://en.wikipedia.org/wiki/Your_Name' },
@@ -1220,14 +1300,12 @@ const works: Work[] = [
   },
 ];
 
-import wes_anderson from './wes-anderson';
-export default [...works, ...wes_anderson];
-
 /*
   {
     title: "",
     date: "",
     slug: "",
+    genres: '',
     like: "3",
     images: [{ url: '/img/tvdb/' }],
     links: [
@@ -1244,6 +1322,447 @@ export default [...works, ...wes_anderson];
         text: ``, 
         src: ''
       }
-    ]
+    ],
   },
 */
+
+/*
+hon. mens.
+  After Yang
+  The Worst Person in the World
+  White Noise
+  Memoria
+
+also
+  Wakanda Forever
+  The Batman 
+  
+10. The Northman
+ 9. Decision to Leave
+ 8. The Banshees of Inisherin
+ 7b. Top Gun: Maverick
+ 7. Avatar: The Way of Water
+ 6. Nope
+ 5. The Fabelmans
+ 4. Triangle of Sadness
+ 3. Aftersun
+ 2. Tár
+ 1. Everything Everywhere All At Once
+*/
+
+const TF22: Work[] = [
+  {
+    title: 'After Yang',
+    date: '2021-07-08',
+    slug: 'after-yang-2021',
+    genres: 'Science-Fiction, Drama',
+    // like: "3",
+    images: [{ url: '/img/tvdb/61f93e528f02a.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/after-yang', score: '73%' },
+      { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydBDZFbMWzE', type: 'stream' },
+      { url: 'https://www.nowtv.com/watch/after-yang-2021/A5EK6sKrAaydBDZFbMWzE', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt8633464', score: '6.6 13K' },
+      { url: 'https://en.wikipedia.org/wiki/After_Yang' },
+      { url: 'https://www.rottentomatoes.com/m/after_yang', score: '89% 70%' },
+      // { url: "", score: "%" },
+      { url: 'https://thetvdb.com/movies/after-yang' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
+    ],
+    texts: [
+      {
+        text: `When his young daughter's beloved companion — an android named Yang — malfunctions,
+               Jake searches for a way to repair him. In the process, Jake discovers the life that
+               has been passing in front of him, reconnecting with his wife and daughter across a 
+               distance he didn't know was there.`,
+        src: 'https://www.justwatch.com/uk/movie/after-yang',
+      },
+    ],
+  },
+  {
+    title: 'The Worst Person in the World',
+    date: '2021-07-08',
+    slug: 'the-worst-person-in-the-world-2021',
+    why: 'data',
+    genres: '',
+    // like: "3",
+    images: [{ url: '/img/tvdb/61624aee35e80.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/the-worst-person-in-the-world', score: '%' },
+      { url: 'https://mubi.com/films/the-worst-person-in-the-world', type: 'stream' },
+      { url: 'https://www.amazon.co.uk/gp/video/detail/0TFS80CNGIMED5MTR2U82FCGUL', which: 'MUBI', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt10370710', score: '7.9 19K' },
+      { url: 'https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)' },
+      { url: 'https://www.rottentomatoes.com/m/the_worst_person_in_the_world', score: '96% 89%' },
+      // { url: "", score: "%" },
+      { url: 'https://thetvdb.com/movies/verdens' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
+    ],
+    texts: [
+      {
+        text: `Chronicles four years in the life of Julie, a young woman who navigates the troubled
+               waters of her love life and struggles to find her career path, leading her to take a
+               realistic look at who she really is.`,
+        src: 'https://thetvdb.com/movies/verdens',
+      },
+    ],
+  },
+  {
+    title: 'White Noise',
+    date: '2022-08-31',
+    slug: 'white-noise-2022',
+    genres: '',
+    // like: "3",
+    why: 'data',
+    images: [{ url: '/img/tvdb/6308afb2b4417.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/white-noise-2022', score: '%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt6160448', score: '6.6 1K' },
+      { url: 'https://en.wikipedia.org/wiki/White_Noise_(2022_film)' },
+      { url: 'https://www.rottentomatoes.com/m/white_noise_2022', score: '63% 55%' },
+      // { url: "", score: "%" },
+      { url: 'https://thetvdb.com/movies/332800-white-noise' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
+    ],
+    texts: [
+      {
+        text: `At once hilarious and horrifying, lyrical and absurd, ordinary and apocalyptic, 
+               White Noise dramatizes a contemporary American family's attempts to deal with the 
+               mundane conflicts of everyday life while grappling with the universal mysteries of 
+               love, death and the possibility of happiness in an uncertain world.`,
+        src: 'https://thetvdb.com/movies/332800-white-noise',
+      },
+    ],
+  },
+  {
+    title: 'Memoria',
+    date: '2021-07-15',
+    slug: 'memoria-2021',
+    genres: 'Drama, Science-Fiction, Mystery & Thriller',
+    // like: "3",
+    images: [{ url: '/img/tvdb/61ca9190d7150.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/memoria-2021', score: '70%' },
+      { url: 'https://player.bfi.org.uk/subscription/film/watch-memoria-2021-online', type: 'stream' },
+      { url: 'https://www.amazon.co.uk/gp/video/detail/0S258Z5L9FLF8SO7F2HS74USMF', which: 'BFI Player', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt8399288', score: '6.6 8K' },
+      { url: 'https://en.wikipedia.org/wiki/Memoria_(2021_film)' },
+      { url: 'https://www.rottentomatoes.com/m/memoria_2021', score: '90% 41%' },
+      // { url: "", score: "%" },
+      { url: 'https://thetvdb.com/movies/209365-memoria' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
+    ],
+    texts: [
+      {
+        text: `A woman from Scotland, while traveling in Colombia, begins to notice strange sounds.
+               Soon she begins to think about their appearance.`,
+        src: 'https://thetvdb.com/movies/209365-memoria',
+      },
+    ],
+  },
+  {
+    title: 'Black Panther: Wakanda Forever',
+    date: '2022-10-26',
+    slug: 'black-panther-wakanda-forever-2022',
+    genres: 'Action & Adventure, Science-Fiction, Fantasy, Mystery & Thriller, Drama',
+    // like: "3",
+    images: [{ url: '/img/tvdb/633f56794b20d.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/black-panther-ii', score: '85%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt9114286', score: '7.2 116K' },
+      { url: 'https://en.wikipedia.org/wiki/Black_Panther:_Wakanda_Forever' },
+      { url: 'https://www.rottentomatoes.com/m/black_panther_wakanda_forever', score: '84% 94%' },
+      { url: 'https://thetvdb.com/movies/black-panther-2' },
+      {
+        url: 'https://www.youtube.com/watch?v=zQ29UhAolHY',
+        type: 'why',
+        which: "mentioned in Thomas Flight's top 10 movies of 2022",
+      },
+    ],
+    texts: [
+      {
+        text: `Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their 
+               nation from intervening world powers in the wake of King T’Challa’s death. As the 
+               Wakandans strive to embrace their next chapter, the heroes must band together with 
+               the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of 
+               Wakanda.`,
+        src: 'https://thetvdb.com/movies/black-panther-2',
+      },
+    ],
+  },
+  {
+    title: 'The Northman',
+    date: '2022-03-28',
+    slug: 'the-northman-2022',
+    why: 'data',
+    genres: '',
+    // like: "3",
+    images: [{ url: '/img/tvdb/624b5de2c5f3f.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/the-northman', score: '%' },
+      { url: 'https://www.sky.com/watch/sky-go/all?videoId=A5EK6sKrAaydFFbWJnydy', type: 'stream' },
+      { url: 'https://www.nowtv.com/watch/the-northman-2022/A5EK6sKrAaydFFbWJnydy', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt11138512', score: '7.1 195K' },
+      { url: 'https://en.wikipedia.org/wiki/The_Northman' },
+      { url: 'https://www.rottentomatoes.com/m/the_northman', score: '89% 64%' },
+      { url: 'https://thetvdb.com/movies/the-northman' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `Set in Iceland at the turn of the 10th century, a Nordic prince set outs on a mission
+               of revenge after his father is murdered. Based on the Danish folk tale of Prince 
+               Amleth.`,
+        src: 'https://thetvdb.com/movies/the-northman',
+      },
+    ],
+  },
+  {
+    title: 'Decision to Leave',
+    date: '2022-05-23',
+    slug: 'decision-to-leave-2022',
+    genres: 'Romance, Mystery & Thriller, Crime, Drama',
+    // like: "3",
+    images: [{ url: '/img/tvdb/632523f43a458.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/decision-to-leave', score: '81%' },
+      { url: 'https://mubi.com/films/decision-to-leave', type: 'stream' },
+      { url: 'https://www.amazon.co.uk/gp/video/detail/0JQFNPBLRQDLOIE3YJN1OGAGDH', which: 'MUBI', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt12477480', score: '7.3 18K' },
+      { url: 'https://en.wikipedia.org/wiki/Decision_to_Leave' },
+      { url: 'https://www.rottentomatoes.com/m/decision_to_leave', score: '94% 87%' },
+      { url: 'https://thetvdb.com/movies/decision-to-leave' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `Hae-Joon, a seasoned detective, investigates the suspicious death of a man on a
+               mountaintop. Soon, he begins to suspect Seo-rae, the deceased's wife, while being 
+               unsettled by his attraction to her.`,
+        src: 'https://thetvdb.com/movies/decision-to-leave',
+      },
+    ],
+  },
+  {
+    title: 'The Banshees of Inisherin',
+    date: '2022-09-05',
+    slug: 'the-banshees-of-inisherin-2022',
+    genres: 'Drama, Comedy',
+    // like: "3",
+    images: [{ url: '/img/tvdb/632ac5eaf122a.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/the-banshees-of-inisherin', score: '90%' },
+      { url: 'https://www.disneyplus.com/en-gb/movies/the-banshees-of-inisherin/7Cj38ALjonSC', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt11813216', score: '8.2 17K' },
+      { url: 'https://en.wikipedia.org/wiki/The_Banshees_of_Inisherin' },
+      { url: 'https://www.rottentomatoes.com/m/the_banshees_of_inisherin', score: '97% 76%' },
+      { url: 'https://thetvdb.com/movies/the-banshees-of-inisheer' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `Two lifelong friends find themselves at an impasse when one abruptly ends their
+               relationship, with alarming consequences for both of them.`,
+        src: 'https://thetvdb.com/movies/the-banshees-of-inisheer',
+      },
+    ],
+  },
+  {
+    title: 'Top Gun: Maverick',
+    date: '2022-04-28',
+    slug: 'top-gun-maverick-2022',
+    genres: 'Drama, Action & Adventure',
+    // like: "3",
+    images: [{ url: '/img/tvdb/62cdff35e16f5.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/top-gun-maverick', score: '94%' },
+      { url: 'https://www.amazon.co.uk/gp/video/detail/0QEVFLTKSPR2A6PPU1D4C3VJDB', which: 'Paramount+', type: 'stream' },
+      { url: 'https://www.imdb.com/title/tt1745960/?ref_=justwatch', score: '8.4 445K' },
+      { url: 'https://en.wikipedia.org/wiki/Top_Gun:_Maverick' },
+      { url: 'https://www.rottentomatoes.com/m/top_gun_maverick', score: '96% 99%' },
+      { url: 'https://thetvdb.com/movies/top-gun-maverick' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `After more than thirty years of service as one of the Navy's top aviators, Pete
+               Mitchell is where he belongs, pushing the envelope as a courageous test pilot and 
+               dodging the advancement in rank that would ground him.`,
+        src: 'https://thetvdb.com/movies/top-gun-maverick',
+      },
+    ],
+  },
+  {
+    title: 'Avatar: The Way of Water',
+    date: '2022-12-06',
+    slug: 'avatar-the-way-of-water-2022',
+    genres: 'Science-Fiction, Action & Adventure, Fantasy, Mystery & Thriller',
+    // like: "3",
+    images: [{ url: '/img/tvdb/6279609015d7f.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/avatar-2', score: '%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt1630029', score: '8.0 90K' },
+      { url: 'https://en.wikipedia.org/wiki/Avatar:_The_Way_of_Water' },
+      { url: 'https://www.rottentomatoes.com/m/avatar_the_way_of_water', score: '78% 93%' },
+      { url: 'https://thetvdb.com/movies/avatar-the-way-of-water' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `Follow the story of the Sully family, the trouble that follows them, the lengths
+               they will go to to keep each other safe, the battles they fight to stay alive, and 
+               the tragedies they endure.`,
+        src: 'https://thetvdb.com/movies/avatar-the-way-of-water',
+      },
+    ],
+  },
+  {
+    title: 'The Fabelmans',
+    date: '2022-09-10',
+    slug: 'the-fabelmans-2022',
+    genres: 'Drama, Comedy',
+    // like: "3",
+    images: [{ url: '/img/tvdb/6318c475cffdf.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/the-fabelmans', score: '90%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt14208870', score: '8.2 7K' },
+      { url: 'https://en.wikipedia.org/wiki/The_Fabelmans' },
+      { url: 'https://www.rottentomatoes.com/m/the_fabelmans', score: '91% 82%' },
+      { url: 'https://thetvdb.com/movies/the-fabelmans' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `A coming-of-age story about a young man’s discovery of a shattering family secret
+               and an exploration of the power of movies to help us see the truth about each other 
+               and ourselves.`,
+        src: 'https://thetvdb.com/movies/the-fabelmans',
+      },
+    ],
+  },
+  {
+    title: 'Triangle of Sadness',
+    date: '2022-05-21',
+    slug: 'triangle-of-sadness-2022',
+    genres: 'Drama, Comedy',
+    // like: "3",
+    images: [{ url: '/img/tvdb/62f29a1506df6.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/triangle-of-sadness', score: '84%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt7322224', score: '7.6 34K' },
+      { url: 'https://en.wikipedia.org/wiki/Triangle_of_Sadness' },
+      { url: 'https://www.rottentomatoes.com/m/triangle_of_sadness', score: '70% 73%' },
+      { url: 'https://thetvdb.com/movies/triangle-of-sadness' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `A contemporary satire that starts from the salons of the fashion world, continues
+               onto a luxury yacht, and ends up on a desert island where hierarchies are turned 
+               upside-down. The cruise went awry when the Marxist captain decided to punish his 
+               spoiled passengers by staging a grand dinner during a violent storm, leading to 
+               food poisoning and seasickness.`,
+        src: 'https://thetvdb.com/movies/triangle-of-sadness',
+      },
+    ],
+  },
+  {
+    title: 'Aftersun',
+    date: '2022-05-21',
+    slug: 'aftersun-2022',
+    genres: 'Drama',
+    // like: "3",
+    images: [{ url: '/img/tvdb/63a03ceadd489.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/aftersun-2022', score: '86%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt19770238', score: '7.7 3K' },
+      { url: 'https://en.wikipedia.org/wiki/Aftersun' },
+      { url: 'https://www.rottentomatoes.com/m/aftersun', score: '96% 81%' },
+      { url: 'https://thetvdb.com/movies/aftersun' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `A woman reminisces about embarking on a summer vacation to Turkey with her father
+               during her childhood.`,
+        src: 'https://thetvdb.com/movies/aftersun',
+      },
+    ],
+  },
+  {
+    title: 'Tár',
+    date: '2022-09-01',
+    slug: 'tar-2022',
+    genres: 'Music & Musical, Drama',
+    // like: "3",
+    images: [{ url: '/img/tvdb/630fbc32e9d78.jpg' }],
+    links: [
+      { url: 'https://www.justwatch.com/uk/movie/tar', score: '85%' },
+      // { url: "", type: "stream" },
+      { url: 'https://www.imdb.com/title/tt14444726', score: '7.8 11K' },
+      { url: 'https://en.wikipedia.org/wiki/T%C3%A1r' },
+      { url: 'https://www.rottentomatoes.com/m/tar_2022', score: '90% 72%' },
+      { url: 'https://thetvdb.com/movies/tar' },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      {
+        text: `Set in the international world of classical music, the film centers on Lydia Tár,
+               widely considered one of the greatest living composer/conductors and first-ever 
+               female chief conductor of a major German orchestra.`,
+        src: 'https://thetvdb.com/movies/tar',
+      },
+    ],
+  },
+];
+
+/*
+  {
+    title: "",
+    date: "2022-",
+    slug: "-2022",
+    // genres: '',
+    like: "3",
+    images: [{ url: '/img/tvdb/' }],
+    links: [
+      { url: "", score: "%" }, 
+      // { url: "", type: "stream" }, 
+      { url: "", score: "" },
+      { url: "" },
+      { url: "", score: "% %" },
+      { url: "" },
+      { url: 'https://www.youtube.com/watch?v=zQ29UhAolHY', type: 'why', which: "Thomas Flight's top 10 movies of 2022" },
+    ],
+    texts: [
+      { 
+        text: ``, 
+        src: ''
+      }
+    ],
+  },
+*/
+
+import wes_anderson from './wes-anderson';
+export default [...works, ...wes_anderson, ...TF22];
